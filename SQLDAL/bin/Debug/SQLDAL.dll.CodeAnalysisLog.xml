@@ -1,0 +1,791 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Users\User\Desktop\migration20190613\SQLDAL\bin\Debug\SQLDAL.dll">
+   <Modules>
+    <Module Name="sqldal.dll">
+     <Namespaces>
+      <Namespace Name="SQLDAL">
+       <Types>
+        <Type Name="SQLDAO" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#insert_ddlistsql(System.Collections.Generic.List`1&lt;MyDAL.Model.tblddl&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="779">Object 'con' can be disposed more than once in method 'SQLDAO.insert_ddlistsql(List&lt;tblddl&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 779</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert_genericworkcode(System.Collections.Generic.List`1&lt;MyDAL.Model.tblgenericworkentry&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="442">Object 'con' can be disposed more than once in method 'SQLDAO.insert_genericworkcode(List&lt;tblgenericworkentry&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 442</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert_hmiscreen(System.Collections.Generic.List`1&lt;MyDAL.Model.tblhmiscreen&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="516">Object 'con' can be disposed more than once in method 'SQLDAO.insert_hmiscreen(List&lt;tblhmiscreen&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 516</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert_livelossofentry(System.Collections.Generic.List`1&lt;MyDAL.Model.tbllivelossofentry&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="282">Object 'con' can be disposed more than once in method 'SQLDAO.insert_livelossofentry(List&lt;tbllivelossofentry&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 282</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert_livemultiwoselection(System.Collections.Generic.List`1&lt;MyDAL.Model.tbllivemultiwoselection&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="338">Object 'con' can be disposed more than once in method 'SQLDAO.insert_livemultiwoselection(List&lt;tbllivemultiwoselection&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 338</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert_lossofentry(System.Collections.Generic.List`1&lt;MyDAL.Model.tbllossofentry&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="574">Object 'con' can be disposed more than once in method 'SQLDAO.insert_lossofentry(List&lt;tbllossofentry&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 574</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert_mimics(System.Collections.Generic.List`1&lt;MyDAL.Model.tblmimic&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="830">Object 'con' can be disposed more than once in method 'SQLDAO.insert_mimics(List&lt;tblmimic&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 830</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert_module(System.Collections.Generic.List`1&lt;MyDAL.Model.tblmodulehelper&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="879">Object 'con' can be disposed more than once in method 'SQLDAO.insert_module(List&lt;tblmodulehelper&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 879</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert_multiwoselection(System.Collections.Generic.List`1&lt;MyDAL.Model.tbl_multiwoselection&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="393">Object 'con' can be disposed more than once in method 'SQLDAO.insert_multiwoselection(List&lt;tbl_multiwoselection&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 393</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert_oeedashboardfinalvarlist(System.Collections.Generic.List`1&lt;MyDAL.Model.tbloeedashboardfinalvariable&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="714">Object 'con' can be disposed more than once in method 'SQLDAO.insert_oeedashboardfinalvarlist(List&lt;tbloeedashboardfinalvariable&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 714</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert_oeedashboardvariablelist(System.Collections.Generic.List`1&lt;MyDAL.Model.tbloeedashboardvariable&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="644">Object 'con' can be disposed more than once in method 'SQLDAO.insert_oeedashboardvariablelist(List&lt;tbloeedashboardvariable&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 644</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert_recipient(System.Collections.Generic.List`1&lt;MyDAL.Model.recipientmailid&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="975">Object 'con' can be disposed more than once in method 'SQLDAO.insert_recipient(List&lt;recipientmailid&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 975</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert_screen(System.Collections.Generic.List`1&lt;MyDAL.Model.tbllivehmiscreen&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="226">Object 'con' can be disposed more than once in method 'SQLDAO.insert_screen(List&lt;tbllivehmiscreen&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 226</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#insert_shiftmaster(System.Collections.Generic.List`1&lt;MyDAL.Model.tblshift_mstr&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="927">Object 'con' can be disposed more than once in method 'SQLDAO.insert_shiftmaster(List&lt;tblshift_mstr&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 927</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PCBDAQ__mode(System.Collections.Generic.List`1&lt;MyDAL.Model.tblmode&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="144">Object 'con' can be disposed more than once in method 'SQLDAO.PCBDAQ__mode(List&lt;tblmode&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 144</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PCBDAQ_multipeldatainsert(System.Collections.Generic.List`1&lt;MyDAL.Model.tbllivemodedb&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-06-13 09:57:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="SQLDAO.cs" Line="79">Object 'con' can be disposed more than once in method 'SQLDAO.PCBDAQ_multipeldatainsert(List&lt;tbllivemodedb&gt;)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 79</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tbl_autoreportbasedon" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbl_autoreportbasedon.cs" Line="18">'tbl_autoreportbasedon.tbl_autoreportbasedon()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbl_autoreportbasedon..ctor()&#xD;&#xA;tbl_autoreportbasedon.set_tbl_autoreportsetting(ICollection&lt;tbl_autoreportsetting&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tbl_autoreportsetting" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tbl_autoreportsetting" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbl_autoreportsetting.cs" Line="18">'tbl_autoreportsetting.tbl_autoreportsetting()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbl_autoreportsetting..ctor()&#xD;&#xA;tbl_autoreportsetting.set_tbl_autoreport_log(ICollection&lt;tbl_autoreport_log&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tbl_autoreport_log" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tbl_autoreporttime" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbl_autoreporttime.cs" Line="18">'tbl_autoreporttime.tbl_autoreporttime()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbl_autoreporttime..ctor()&#xD;&#xA;tbl_autoreporttime.set_tbl_autoreportsetting(ICollection&lt;tbl_autoreportsetting&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tbl_autoreportsetting" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tbl_reportmaster" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbl_reportmaster.cs" Line="18">'tbl_reportmaster.tbl_reportmaster()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbl_reportmaster..ctor()&#xD;&#xA;tbl_reportmaster.set_tbl_autoreportsetting(ICollection&lt;tbl_autoreportsetting&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tbl_autoreportsetting" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tblcell" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblcell.cs" Line="18">'tblcell.tblcell()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblcell..ctor()&#xD;&#xA;tblcell.set_tbl_autoreportsetting(ICollection&lt;tbl_autoreportsetting&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblcell.cs" Line="18">'tblcell.tblcell()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblcell..ctor()&#xD;&#xA;tblcell.set_tblemailescalations(ICollection&lt;tblemailescalation&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblcell.cs" Line="18">'tblcell.tblcell()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblcell..ctor()&#xD;&#xA;tblcell.set_tblmachinedetails(ICollection&lt;tblmachinedetail&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblcell.cs" Line="18">'tblcell.tblcell()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblcell..ctor()&#xD;&#xA;tblcell.set_tblmachinedetailsnews(ICollection&lt;tblmachinedetailsnew&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblcell.cs" Line="18">'tblcell.tblcell()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblcell..ctor()&#xD;&#xA;tblcell.set_tblmultipleworkorders(ICollection&lt;tblmultipleworkorder&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblcell.cs" Line="18">'tblcell.tblcell()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblcell..ctor()&#xD;&#xA;tblcell.set_tblshiftplanners(ICollection&lt;tblshiftplanner&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tbl_autoreportsetting" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblemailescalations" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblmachinedetails" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblmachinedetailsnews" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblmultipleworkorders" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblshiftplanners" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tbldowntimecategory" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbldowntimecategory.cs" Line="18">'tbldowntimecategory.tbldowntimecategory()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbldowntimecategory..ctor()&#xD;&#xA;tbldowntimecategory.set_tbldowntimedetails(ICollection&lt;tbldowntimedetail&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tbldowntimedetails" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tblemailreporttype" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblemailreporttype.cs" Line="18">'tblemailreporttype.tblemailreporttype()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblemailreporttype..ctor()&#xD;&#xA;tblemailreporttype.set_recipientmailids(ICollection&lt;recipientmailid&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblemailreporttype.cs" Line="18">'tblemailreporttype.tblemailreporttype()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblemailreporttype..ctor()&#xD;&#xA;tblemailreporttype.set_tblsendermailids(ICollection&lt;tblsendermailid&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#recipientmailids" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblsendermailids" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tblgenericworkcode" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblgenericworkcode.cs" Line="18">'tblgenericworkcode.tblgenericworkcode()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblgenericworkcode..ctor()&#xD;&#xA;tblgenericworkcode.set_tblgenericworkentries(ICollection&lt;tblgenericworkentry&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tblgenericworkentries" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tblhmiscreen" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblhmiscreen.cs" Line="18">'tblhmiscreen.tblhmiscreen()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblhmiscreen..ctor()&#xD;&#xA;tblhmiscreen.set_tbl_multiwoselection(ICollection&lt;tbl_multiwoselection&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tbl_multiwoselection" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tbllivehmiscreen" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbllivehmiscreen.cs" Line="18">'tbllivehmiscreen.tbllivehmiscreen()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbllivehmiscreen..ctor()&#xD;&#xA;tbllivehmiscreen.set_tbllivemultiwoselections(ICollection&lt;tbllivemultiwoselection&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tbllivemultiwoselections" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tbllossescode" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbllossescode.cs" Line="18">'tbllossescode.tbllossescode()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbllossescode..ctor()&#xD;&#xA;tbllossescode.set_tblbreakdowns(ICollection&lt;tblbreakdown&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbllossescode.cs" Line="18">'tbllossescode.tbllossescode()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbllossescode..ctor()&#xD;&#xA;tbllossescode.set_tblemailescalations(ICollection&lt;tblemailescalation&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbllossescode.cs" Line="18">'tbllossescode.tbllossescode()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbllossescode..ctor()&#xD;&#xA;tbllossescode.set_tblemailescalations1(ICollection&lt;tblemailescalation&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbllossescode.cs" Line="18">'tbllossescode.tbllossescode()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbllossescode..ctor()&#xD;&#xA;tbllossescode.set_tblemailescalations2(ICollection&lt;tblemailescalation&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbllossescode.cs" Line="18">'tbllossescode.tbllossescode()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbllossescode..ctor()&#xD;&#xA;tbllossescode.set_tblescalationlogs(ICollection&lt;tblescalationlog&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbllossescode.cs" Line="18">'tbllossescode.tbllossescode()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbllossescode..ctor()&#xD;&#xA;tbllossescode.set_tbllivelossofentries(ICollection&lt;tbllivelossofentry&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbllossescode.cs" Line="18">'tbllossescode.tbllossescode()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbllossescode..ctor()&#xD;&#xA;tbllossescode.set_tbllivelossofentryreps(ICollection&lt;tbllivelossofentryrep&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbllossescode.cs" Line="18">'tbllossescode.tbllossescode()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbllossescode..ctor()&#xD;&#xA;tbllossescode.set_tbllivemanuallossofentries(ICollection&lt;tbllivemanuallossofentry&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbllossescode.cs" Line="18">'tbllossescode.tbllossescode()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbllossescode..ctor()&#xD;&#xA;tbllossescode.set_tbllivemanuallossofentryreps(ICollection&lt;tbllivemanuallossofentryrep&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbllossescode.cs" Line="18">'tbllossescode.tbllossescode()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbllossescode..ctor()&#xD;&#xA;tbllossescode.set_tbllossofentries(ICollection&lt;tbllossofentry&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbllossescode.cs" Line="18">'tbllossescode.tbllossescode()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbllossescode..ctor()&#xD;&#xA;tbllossescode.set_tblmanuallossofentries(ICollection&lt;tblmanuallossofentry&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tblbreakdowns" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblemailescalations" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblemailescalations1" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblemailescalations2" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblescalationlogs" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tbllivelossofentries" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tbllivelossofentryreps" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tbllivemanuallossofentries" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tbllivemanuallossofentryreps" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tbllossofentries" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblmanuallossofentries" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tblmachinedetail" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tbl_autoreportsetting(ICollection&lt;tbl_autoreportsetting&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tbldailyprodstatus(ICollection&lt;tbldailyprodstatu&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tblemailescalations(ICollection&lt;tblemailescalation&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tblhmiscreens(ICollection&lt;tblhmiscreen&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tbllivedailyprodstatus(ICollection&lt;tbllivedailyprodstatu&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tbllivehmiscreenreps(ICollection&lt;tbllivehmiscreenrep&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tbllivehmiscreens(ICollection&lt;tbllivehmiscreen&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tbllivemodedbs(ICollection&lt;tbllivemodedb&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tbllivemodes(ICollection&lt;tbllivemode&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tblmachineallocations(ICollection&lt;tblmachineallocation&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tblmimics(ICollection&lt;tblmimic&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tblmodes(ICollection&lt;tblmode&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tblmultipleworkorders(ICollection&lt;tblmultipleworkorder&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tblpartwiseworkcenters(ICollection&lt;tblpartwiseworkcenter&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tblshiftdetails_machinewise(ICollection&lt;tblshiftdetails_machinewise&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tblshiftplanners(ICollection&lt;tblshiftplanner&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmachinedetail.cs" Line="18">'tblmachinedetail.tblmachinedetail()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmachinedetail..ctor()&#xD;&#xA;tblmachinedetail.set_tblusers(ICollection&lt;tbluser&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tbl_autoreportsetting" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tbldailyprodstatus" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblemailescalations" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblhmiscreens" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tbllivedailyprodstatus" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tbllivehmiscreenreps" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tbllivehmiscreens" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tbllivemodedbs" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tbllivemodes" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblmachineallocations" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblmimics" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblmodes" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblmultipleworkorders" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblpartwiseworkcenters" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblshiftdetails_machinewise" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblshiftplanners" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblusers" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tblmodulemaster" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblmodulemaster.cs" Line="18">'tblmodulemaster.tblmodulemaster()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblmodulemaster..ctor()&#xD;&#xA;tblmodulemaster.set_tblroleplaymasters(ICollection&lt;tblroleplaymaster&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tblroleplaymasters" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tblplant" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblplant.cs" Line="18">'tblplant.tblplant()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblplant..ctor()&#xD;&#xA;tblplant.set_tbl_autoreportsetting(ICollection&lt;tbl_autoreportsetting&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblplant.cs" Line="18">'tblplant.tblplant()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblplant..ctor()&#xD;&#xA;tblplant.set_tblcells(ICollection&lt;tblcell&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblplant.cs" Line="18">'tblplant.tblplant()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblplant..ctor()&#xD;&#xA;tblplant.set_tblemailescalations(ICollection&lt;tblemailescalation&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblplant.cs" Line="18">'tblplant.tblplant()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblplant..ctor()&#xD;&#xA;tblplant.set_tblmachinedetails(ICollection&lt;tblmachinedetail&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblplant.cs" Line="18">'tblplant.tblplant()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblplant..ctor()&#xD;&#xA;tblplant.set_tblmachinedetailsnews(ICollection&lt;tblmachinedetailsnew&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblplant.cs" Line="18">'tblplant.tblplant()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblplant..ctor()&#xD;&#xA;tblplant.set_tblmultipleworkorders(ICollection&lt;tblmultipleworkorder&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblplant.cs" Line="18">'tblplant.tblplant()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblplant..ctor()&#xD;&#xA;tblplant.set_tblshiftplanners(ICollection&lt;tblshiftplanner&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblplant.cs" Line="18">'tblplant.tblplant()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblplant..ctor()&#xD;&#xA;tblplant.set_tblshops(ICollection&lt;tblshop&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tbl_autoreportsetting" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblcells" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblemailescalations" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblmachinedetails" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblmachinedetailsnews" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblmultipleworkorders" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblshiftplanners" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblshops" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tblrole" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblrole.cs" Line="18">'tblrole.tblrole()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblrole..ctor()&#xD;&#xA;tblrole.set_tblusers(ICollection&lt;tbluser&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblrole.cs" Line="18">'tblrole.tblrole()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblrole..ctor()&#xD;&#xA;tblrole.set_tblusers1(ICollection&lt;tbluser&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tblusers" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblusers1" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tblshift_mstr" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblshift_mstr.cs" Line="18">'tblshift_mstr.tblshift_mstr()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblshift_mstr..ctor()&#xD;&#xA;tblshift_mstr.set_tblmachineallocations(ICollection&lt;tblmachineallocation&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblshift_mstr.cs" Line="18">'tblshift_mstr.tblshift_mstr()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblshift_mstr..ctor()&#xD;&#xA;tblshift_mstr.set_tblplannedbreaks(ICollection&lt;tblplannedbreak&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tblmachineallocations" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblplannedbreaks" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tblshiftmethod" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblshiftmethod.cs" Line="18">'tblshiftmethod.tblshiftmethod()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblshiftmethod..ctor()&#xD;&#xA;tblshiftmethod.set_tblshiftdetails(ICollection&lt;tblshiftdetail&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tblshiftdetails" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tblshop" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblshop.cs" Line="18">'tblshop.tblshop()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblshop..ctor()&#xD;&#xA;tblshop.set_tbl_autoreportsetting(ICollection&lt;tbl_autoreportsetting&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblshop.cs" Line="18">'tblshop.tblshop()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblshop..ctor()&#xD;&#xA;tblshop.set_tblcells(ICollection&lt;tblcell&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblshop.cs" Line="18">'tblshop.tblshop()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblshop..ctor()&#xD;&#xA;tblshop.set_tblemailescalations(ICollection&lt;tblemailescalation&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblshop.cs" Line="18">'tblshop.tblshop()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblshop..ctor()&#xD;&#xA;tblshop.set_tblmachinedetails(ICollection&lt;tblmachinedetail&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblshop.cs" Line="18">'tblshop.tblshop()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblshop..ctor()&#xD;&#xA;tblshop.set_tblmachinedetailsnews(ICollection&lt;tblmachinedetailsnew&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblshop.cs" Line="18">'tblshop.tblshop()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblshop..ctor()&#xD;&#xA;tblshop.set_tblmultipleworkorders(ICollection&lt;tblmultipleworkorder&gt;):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblshop.cs" Line="18">'tblshop.tblshop()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblshop..ctor()&#xD;&#xA;tblshop.set_tblshiftplanners(ICollection&lt;tblshiftplanner&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tbl_autoreportsetting" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblcells" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblemailescalations" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblmachinedetails" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblmachinedetailsnews" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblmultipleworkorders" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+          <Member Name="#tblshiftplanners" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tblunit" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tblunit.cs" Line="18">'tblunit.tblunit()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tblunit..ctor()&#xD;&#xA;tblunit.set_tblparts(ICollection&lt;tblpart&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tblparts" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="tbluser" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\User\Desktop\migration20190613\SQLDAL" File="tbluser.cs" Line="18">'tbluser.tbluser()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;tbluser..ctor()&#xD;&#xA;tbluser.set_tblmachineallocations(ICollection&lt;tblmachineallocation&gt;):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#tblmachineallocations" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="ExcludedInSource" Created="2019-06-13 09:57:35Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227">
+   <Name>Collection properties should be read only</Name>
+   <Description>Properties that return collections should be read-only so that users cannot entirely replace the backing store. Users can still modify the contents of the collection by calling relevant methods on the collection. Note that the XmlSerializer class has special support for deserializing read-only collections. See the XmlSerializer overview for more information.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182327.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>Do not dispose objects multiple times</Name>
+   <Description>A correctly implemented Dispose method can be called multiple times without throwing an exception. However, this is not guaranteed and to avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.</Description>
+   <Resolution Name="Default">Object {0} can be disposed more than once in method {1}. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 975</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214">
+   <Name>Do not call overridable methods in constructors</Name>
+   <Description>Virtual methods defined on the class should not be called from constructors. If a derived class has overridden the method, the derived class version will be called (before the derived class constructor is called).</Description>
+   <Resolution Name="Default">{0} contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182331.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

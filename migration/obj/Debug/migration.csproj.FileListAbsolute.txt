@@ -1,0 +1,181 @@
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\migration.exe.config
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\migration.exe
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\migration.pdb
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\EntityFramework.dll
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\EntityFramework.SqlServer.dll
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\MyDAL.dll
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\MySql.Data.dll
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\SQLDAL.dll
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\Dapper.dll
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\MyDAL.pdb
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\MyDAL.dll.config
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\SQLDAL.pdb
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\SQLDAL.dll.config
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\EntityFramework.xml
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\EntityFramework.SqlServer.xml
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\MySql.Data.xml
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\originaldatamigration\original migration\migration\migration\bin\Debug\Dapper.xml
+G:\originaldatamigration\original migration\migration\migration\obj\Debug\migration.csprojAssemblyReference.cache
+G:\originaldatamigration\original migration\migration\migration\obj\Debug\migration.Properties.Resources.resources
+G:\originaldatamigration\original migration\migration\migration\obj\Debug\migration.csproj.GenerateResource.cache
+G:\originaldatamigration\original migration\migration\migration\obj\Debug\migration.csproj.CoreCompileInputs.cache
+G:\originaldatamigration\original migration\migration\migration\obj\Debug\migration.csproj.CopyComplete
+G:\originaldatamigration\original migration\migration\migration\obj\Debug\migration.exe
+G:\originaldatamigration\original migration\migration\migration\obj\Debug\migration.pdb
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\migration.exe.config
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\migration.exe
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\migration.pdb
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\MyDAL.dll
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\MySql.Data.dll
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\SQLDAL.dll
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\Dapper.dll
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\MyDAL.pdb
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\MyDAL.dll.config
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\SQLDAL.pdb
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\SQLDAL.dll.config
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\MySql.Data.xml
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\Dapper.xml
+C:\Users\User\Desktop\migration20190613\migration\obj\Debug\migration.csprojAssemblyReference.cache
+C:\Users\User\Desktop\migration20190613\migration\obj\Debug\migration.Properties.Resources.resources
+C:\Users\User\Desktop\migration20190613\migration\obj\Debug\migration.csproj.GenerateResource.cache
+C:\Users\User\Desktop\migration20190613\migration\obj\Debug\migration.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\migration20190613\migration\obj\Debug\migration.csproj.CopyComplete
+C:\Users\User\Desktop\migration20190613\migration\obj\Debug\migration.exe
+C:\Users\User\Desktop\migration20190613\migration\obj\Debug\migration.pdb
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\migration.exe.CodeAnalysisLog.xml
+C:\Users\User\Desktop\migration20190613\migration\bin\Debug\migration.exe.lastcodeanalysissucceeded
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\migration.exe
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\migration.exe.config
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\MyDAL.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\MySql.Data.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\SQLDAL.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\Dapper.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\MyDAL.pdb
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\MyDAL.dll.config
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\SQLDAL.pdb
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\SQLDAL.dll.config
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\MySql.Data.xml
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\bin\Debug\Dapper.xml
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\obj\Debug\migration.csprojAssemblyReference.cache
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\obj\Debug\migration.Properties.Resources.resources
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\obj\Debug\migration.csproj.GenerateResource.cache
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\obj\Debug\migration.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\obj\Debug\migration.csproj.CopyComplete
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\obj\Debug\migration.exe
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\migration\obj\Debug\migration.pdb
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\migration.exe.config
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\migration.exe
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\migration.pdb
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\MyDAL.dll
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\MySql.Data.dll
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\SQLDAL.dll
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\Dapper.dll
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\MyDAL.pdb
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\MyDAL.dll.config
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\SQLDAL.pdb
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\SQLDAL.dll.config
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\MySql.Data.xml
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\user\Desktop\newmigration20190708\migration\bin\Debug\Dapper.xml
+C:\Users\user\Desktop\newmigration20190708\migration\obj\Debug\migration.csprojAssemblyReference.cache
+C:\Users\user\Desktop\newmigration20190708\migration\obj\Debug\migration.Properties.Resources.resources
+C:\Users\user\Desktop\newmigration20190708\migration\obj\Debug\migration.csproj.GenerateResource.cache
+C:\Users\user\Desktop\newmigration20190708\migration\obj\Debug\migration.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\newmigration20190708\migration\obj\Debug\migration.csproj.CopyComplete
+C:\Users\user\Desktop\newmigration20190708\migration\obj\Debug\migration.exe
+C:\Users\user\Desktop\newmigration20190708\migration\obj\Debug\migration.pdb
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\migration.exe.config
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\migration.exe
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\migration.pdb
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\EntityFramework.dll
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\EntityFramework.SqlServer.dll
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\MyDAL.dll
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\MySql.Data.dll
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\SQLDAL.dll
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\Dapper.dll
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\MyDAL.pdb
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\MyDAL.dll.config
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\SQLDAL.pdb
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\SQLDAL.dll.config
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\EntityFramework.xml
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\EntityFramework.SqlServer.xml
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\MySql.Data.xml
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\MySql.Data.Entity.EF6.xml
+G:\Desktop20190712\newmigration20190708\migration\bin\Debug\Dapper.xml
+G:\Desktop20190712\newmigration20190708\migration\obj\Debug\migration.csprojAssemblyReference.cache
+G:\Desktop20190712\newmigration20190708\migration\obj\Debug\migration.Properties.Resources.resources
+G:\Desktop20190712\newmigration20190708\migration\obj\Debug\migration.csproj.GenerateResource.cache
+G:\Desktop20190712\newmigration20190708\migration\obj\Debug\migration.csproj.CoreCompileInputs.cache
+G:\Desktop20190712\newmigration20190708\migration\obj\Debug\migration.csproj.CopyComplete
+G:\Desktop20190712\newmigration20190708\migration\obj\Debug\migration.exe
+G:\Desktop20190712\newmigration20190708\migration\obj\Debug\migration.pdb
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\migration.exe.config
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\migration.exe
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\migration.pdb
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\EntityFramework.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\MyDAL.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\MySql.Data.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\SQLDAL.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\Dapper.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\MyDAL.pdb
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\MyDAL.dll.config
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\SQLDAL.pdb
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\SQLDAL.dll.config
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\EntityFramework.xml
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\MySql.Data.xml
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\MySql.Data.Entity.EF6.xml
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\bin\Debug\Dapper.xml
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\obj\Debug\migration.csprojAssemblyReference.cache
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\obj\Debug\migration.Properties.Resources.resources
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\obj\Debug\migration.csproj.GenerateResource.cache
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\obj\Debug\migration.csproj.CoreCompileInputs.cache
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\obj\Debug\migration.csproj.CopyComplete
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\obj\Debug\migration.exe
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\migration\obj\Debug\migration.pdb
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\migration.exe.config
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\migration.exe
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\migration.pdb
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\EntityFramework.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\EntityFramework.SqlServer.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\MyDAL.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\MySql.Data.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\SQLDAL.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\Dapper.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\MyDAL.pdb
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\MyDAL.dll.config
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\SQLDAL.pdb
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\SQLDAL.dll.config
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\EntityFramework.xml
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\EntityFramework.SqlServer.xml
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\MySql.Data.xml
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\bin\Debug\MySql.Data.Entity.EF6.xml
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\obj\Debug\migration.csprojAssemblyReference.cache
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\obj\Debug\migration.Properties.Resources.resources
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\obj\Debug\migration.csproj.GenerateResource.cache
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\obj\Debug\migration.csproj.CopyComplete
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\obj\Debug\migration.exe
+E:\Migration_Application_17-11-2020\newmigration20190713\migration\obj\Debug\migration.pdb

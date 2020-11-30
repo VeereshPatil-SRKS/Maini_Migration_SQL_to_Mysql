@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Migration_Application_17-11-2020\\newmigration20190713\\MyDAL\\MyDAL.csproj": {}
+  },
+  "projects": {
+    "E:\\Migration_Application_17-11-2020\\newmigration20190713\\MyDAL\\MyDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Migration_Application_17-11-2020\\newmigration20190713\\MyDAL\\MyDAL.csproj",
+        "projectName": "MyDAL",
+        "projectPath": "E:\\Migration_Application_17-11-2020\\newmigration20190713\\MyDAL\\MyDAL.csproj",
+        "packagesPath": "C:\\Users\\veeresh\\.nuget\\packages\\",
+        "outputPath": "E:\\Migration_Application_17-11-2020\\newmigration20190713\\MyDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\veeresh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "BouncyCastle": {
+              "target": "Package",
+              "version": "[1.8.3.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "MySQL.Data.Entities": {
+              "target": "Package",
+              "version": "[6.7.4.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[6.10.7, )"
+            },
+            "MySql.Data.Entity": {
+              "target": "Package",
+              "version": "[6.7.9, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

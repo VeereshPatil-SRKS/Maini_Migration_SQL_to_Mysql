@@ -1,0 +1,577 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "BouncyCastle/1.8.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "Dapper/2.0.78": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Dapper.dll": {}
+        }
+      },
+      "EntityFramework/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations",
+          "System.Data.Entity"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "Google.Protobuf/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Protobuf.dll": {}
+        }
+      },
+      "MySql.Data/6.10.7": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.ComponentModel",
+          "System.ComponentModel.DataAnnotations",
+          "System.Configuration",
+          "System.Configuration.Install",
+          "System.Data",
+          "System.Drawing",
+          "System.Drawing.Design",
+          "System.Management",
+          "System.Transactions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net452/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MySql.Data.dll": {}
+        }
+      },
+      "MySQL.Data.Entities/6.7.4.1": {
+        "type": "package",
+        "dependencies": {
+          "MySQL.Data": "6.7.4"
+        },
+        "compile": {
+          "lib/net45/MySql.Data.Entity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.Entity.dll": {}
+        }
+      },
+      "MySql.Data.Entity/6.7.9": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "5.0.0",
+          "MySql.Data": "6.7.9"
+        },
+        "compile": {
+          "lib/net45/MySql.Data.Entity.EF5.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.Entity.EF5.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "BouncyCastle/1.8.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "Dapper/2.0.78": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Dapper.dll": {}
+        }
+      },
+      "EntityFramework/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations",
+          "System.Data.Entity"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "Google.Protobuf/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Protobuf.dll": {}
+        }
+      },
+      "MySql.Data/6.10.7": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.ComponentModel",
+          "System.ComponentModel.DataAnnotations",
+          "System.Configuration",
+          "System.Configuration.Install",
+          "System.Data",
+          "System.Drawing",
+          "System.Drawing.Design",
+          "System.Management",
+          "System.Transactions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net452/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MySql.Data.dll": {}
+        }
+      },
+      "MySQL.Data.Entities/6.7.4.1": {
+        "type": "package",
+        "dependencies": {
+          "MySQL.Data": "6.7.4"
+        },
+        "compile": {
+          "lib/net45/MySql.Data.Entity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.Entity.dll": {}
+        }
+      },
+      "MySql.Data.Entity/6.7.9": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "5.0.0",
+          "MySql.Data": "6.7.9"
+        },
+        "compile": {
+          "lib/net45/MySql.Data.Entity.EF5.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.Entity.EF5.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "BouncyCastle/1.8.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "Dapper/2.0.78": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Dapper.dll": {}
+        }
+      },
+      "EntityFramework/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations",
+          "System.Data.Entity"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "Google.Protobuf/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Protobuf.dll": {}
+        }
+      },
+      "MySql.Data/6.10.7": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.ComponentModel",
+          "System.ComponentModel.DataAnnotations",
+          "System.Configuration",
+          "System.Configuration.Install",
+          "System.Data",
+          "System.Drawing",
+          "System.Drawing.Design",
+          "System.Management",
+          "System.Transactions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net452/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MySql.Data.dll": {}
+        }
+      },
+      "MySQL.Data.Entities/6.7.4.1": {
+        "type": "package",
+        "dependencies": {
+          "MySQL.Data": "6.7.4"
+        },
+        "compile": {
+          "lib/net45/MySql.Data.Entity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.Entity.dll": {}
+        }
+      },
+      "MySql.Data.Entity/6.7.9": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "5.0.0",
+          "MySql.Data": "6.7.9"
+        },
+        "compile": {
+          "lib/net45/MySql.Data.Entity.EF5.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.Entity.EF5.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "BouncyCastle/1.8.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "Dapper/2.0.78": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Dapper.dll": {}
+        }
+      },
+      "EntityFramework/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations",
+          "System.Data.Entity"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "Google.Protobuf/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Google.Protobuf.dll": {}
+        }
+      },
+      "MySql.Data/6.10.7": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.ComponentModel",
+          "System.ComponentModel.DataAnnotations",
+          "System.Configuration",
+          "System.Configuration.Install",
+          "System.Data",
+          "System.Drawing",
+          "System.Drawing.Design",
+          "System.Management",
+          "System.Transactions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net452/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MySql.Data.dll": {}
+        }
+      },
+      "MySQL.Data.Entities/6.7.4.1": {
+        "type": "package",
+        "dependencies": {
+          "MySQL.Data": "6.7.4"
+        },
+        "compile": {
+          "lib/net45/MySql.Data.Entity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.Entity.dll": {}
+        }
+      },
+      "MySql.Data.Entity/6.7.9": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "5.0.0",
+          "MySql.Data": "6.7.9"
+        },
+        "compile": {
+          "lib/net45/MySql.Data.Entity.EF5.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.Entity.EF5.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BouncyCastle/1.8.3.1": {
+      "sha512": "YReOMI3d7GN7pTeLm5m//55Mhw8W23YB+/3DJj8uWZr2z0IuFvEM0KznogeXWDDfZXy0OoEgxySidFcH1xB9fw==",
+      "type": "package",
+      "path": "bouncycastle/1.8.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "bouncycastle.1.8.3.1.nupkg.sha512",
+        "bouncycastle.nuspec",
+        "lib/BouncyCastle.Crypto.dll"
+      ]
+    },
+    "Dapper/2.0.78": {
+      "sha512": "vLPwL2HZXp/DN17Eu7sg6GMEj02alq7jcy6atn5Gv8i96b9Hu1UoxlCrhInUPfSFLQQiD8O7pdWAE1fdUEO/1Q==",
+      "type": "package",
+      "path": "dapper/2.0.78",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapper.2.0.78.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "EntityFramework/5.0.0": {
+      "sha512": "WYfgJWKg/RjwU8pzZkImD9DsV+J1nqDcIGp1S0/bdnElKBmAaUC2nmq/QQAcco32KyQQWnLgJNiDzIOz2xWFbQ==",
+      "type": "package",
+      "path": "entityframework/5.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/App.config.transform",
+        "Content/Web.config.transform",
+        "entityframework.5.0.0.nupkg.sha512",
+        "entityframework.nuspec",
+        "lib/net40/EntityFramework.dll",
+        "lib/net40/EntityFramework.xml",
+        "lib/net45/EntityFramework.dll",
+        "lib/net45/EntityFramework.xml",
+        "tools/EntityFramework.PS3.psd1",
+        "tools/EntityFramework.PowerShell.Utility.dll",
+        "tools/EntityFramework.PowerShell.dll",
+        "tools/EntityFramework.psd1",
+        "tools/EntityFramework.psm1",
+        "tools/Redirect.VS11.config",
+        "tools/Redirect.config",
+        "tools/about_EntityFramework.help.txt",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/migrate.exe"
+      ]
+    },
+    "Google.Protobuf/3.6.1": {
+      "sha512": "741fGeDQjixBJaU2j+0CbrmZXsNJkTn/hWbOh4fLVXndHsCclJmWznCPWrJmPoZKvajBvAz3e8ECJOUvRtwjNQ==",
+      "type": "package",
+      "path": "google.protobuf/3.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.protobuf.3.6.1.nupkg.sha512",
+        "google.protobuf.nuspec",
+        "lib/net45/Google.Protobuf.dll",
+        "lib/net45/Google.Protobuf.xml",
+        "lib/netstandard1.0/Google.Protobuf.dll",
+        "lib/netstandard1.0/Google.Protobuf.xml"
+      ]
+    },
+    "MySql.Data/6.10.7": {
+      "sha512": "2fptledJVo4GaF/DOpWgumn+pteZ2eNlaZTE8I6CUvK7Zz5UGPWTg3v9l4Ymp9ewivodYI5VDn6ucVyKL/e++A==",
+      "type": "package",
+      "path": "mysql.data/6.10.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/MySql.Data.dll",
+        "lib/net452/MySql.Data.xml",
+        "lib/netcoreapp2.0/MySql.Data.dll",
+        "lib/netcoreapp2.0/MySql.Data.xml",
+        "lib/netstandard1.3/MySql.Data.dll",
+        "lib/netstandard1.3/MySql.Data.xml",
+        "lib/netstandard2.0/MySql.Data.dll",
+        "lib/netstandard2.0/MySql.Data.xml",
+        "mysql.data.6.10.7.nupkg.sha512",
+        "mysql.data.nuspec"
+      ]
+    },
+    "MySQL.Data.Entities/6.7.4.1": {
+      "sha512": "lJvgiref88ZTWwSr1xLrm9lS+Wx1SmgwDnMIJjgdw/zQH98lr7F11HSdaQbncd+uvRuMF3gxdpwG0sIw706LXw==",
+      "type": "package",
+      "path": "mysql.data.entities/6.7.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/MySql.Data.Entity.dll",
+        "lib/net40/MySql.Data.Entity.dll",
+        "lib/net45/MySql.Data.Entity.dll",
+        "mysql.data.entities.6.7.4.1.nupkg.sha512",
+        "mysql.data.entities.nuspec"
+      ]
+    },
+    "MySql.Data.Entity/6.7.9": {
+      "sha512": "BCB7Ma7H4RmccYgrdlVrE8US4SExPa/qaUfCBdmeucM4jfRB41vTJ3dN9IIxTQHSfw5hM29jRsFlPsrErH78+Q==",
+      "type": "package",
+      "path": "mysql.data.entity/6.7.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES",
+        "Readme.txt",
+        "lib/net35/MySql.Data.Entity.dll",
+        "lib/net40/MySql.Data.Entity.dll",
+        "lib/net45/MySql.Data.Entity.EF5.dll",
+        "mysql.data.entity.6.7.9.nupkg.sha512",
+        "mysql.data.entity.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "BouncyCastle >= 1.8.3.1",
+      "Dapper >= 2.0.78",
+      "EntityFramework >= 5.0.0",
+      "Google.Protobuf >= 3.6.1",
+      "MySQL.Data.Entities >= 6.7.4.1",
+      "MySql.Data >= 6.10.7",
+      "MySql.Data.Entity >= 6.7.9"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\veeresh\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Migration_Application_17-11-2020\\newmigration20190713\\MyDAL\\MyDAL.csproj",
+      "projectName": "MyDAL",
+      "projectPath": "E:\\Migration_Application_17-11-2020\\newmigration20190713\\MyDAL\\MyDAL.csproj",
+      "packagesPath": "C:\\Users\\veeresh\\.nuget\\packages\\",
+      "outputPath": "E:\\Migration_Application_17-11-2020\\newmigration20190713\\MyDAL\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\veeresh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "BouncyCastle": {
+            "target": "Package",
+            "version": "[1.8.3.1, )"
+          },
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.0.78, )"
+          },
+          "EntityFramework": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Google.Protobuf": {
+            "target": "Package",
+            "version": "[3.6.1, )"
+          },
+          "MySQL.Data.Entities": {
+            "target": "Package",
+            "version": "[6.7.4.1, )"
+          },
+          "MySql.Data": {
+            "target": "Package",
+            "version": "[6.10.7, )"
+          },
+          "MySql.Data.Entity": {
+            "target": "Package",
+            "version": "[6.7.9, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MySQLDAL.DAL
+{
+
+    using System;
+    using System.Collections.Generic;
+
+    class livelossofentry
+    {
+
+        public int LossID { get; set; }
+        public int MessageCodeID { get; set; }
+        public Nullable<System.DateTime> StartDateTime { get; set; }
+        public Nullable<System.DateTime> EndDateTime { get; set; }
+        public Nullable<System.DateTime> EntryTime { get; set; }
+        public string CorrectedDate { get; set; }
+        public int MachineID { get; set; }
+        public string Shift { get; set; }
+        public string MessageDesc { get; set; }
+        public string MessageCode { get; set; }
+        public int IsUpdate { get; set; }
+        public int DoneWithRow { get; set; }
+        public Nullable<int> IsStart { get; set; }
+        public Nullable<int> IsScreen { get; set; }
+        public int ForRefresh { get; set; }
+
+    }
+}

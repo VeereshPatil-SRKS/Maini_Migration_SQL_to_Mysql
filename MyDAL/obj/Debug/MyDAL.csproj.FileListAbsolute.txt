@@ -1,0 +1,117 @@
+G:\originaldatamigration\original migration\migration\MyDAL\bin\Debug\MyDAL.dll.config
+G:\originaldatamigration\original migration\migration\MyDAL\bin\Debug\MyDAL.dll
+G:\originaldatamigration\original migration\migration\MyDAL\bin\Debug\MyDAL.pdb
+G:\originaldatamigration\original migration\migration\MyDAL\bin\Debug\BouncyCastle.Crypto.dll
+G:\originaldatamigration\original migration\migration\MyDAL\bin\Debug\EntityFramework.dll
+G:\originaldatamigration\original migration\migration\MyDAL\bin\Debug\Google.Protobuf.dll
+G:\originaldatamigration\original migration\migration\MyDAL\bin\Debug\MySql.Data.dll
+G:\originaldatamigration\original migration\migration\MyDAL\bin\Debug\MySql.Data.Entity.dll
+G:\originaldatamigration\original migration\migration\MyDAL\bin\Debug\MySql.Data.Entity.EF5.dll
+G:\originaldatamigration\original migration\migration\MyDAL\bin\Debug\EntityFramework.xml
+G:\originaldatamigration\original migration\migration\MyDAL\bin\Debug\Google.Protobuf.xml
+G:\originaldatamigration\original migration\migration\MyDAL\bin\Debug\MySql.Data.xml
+G:\originaldatamigration\original migration\migration\MyDAL\obj\Debug\MyDAL.csprojAssemblyReference.cache
+G:\originaldatamigration\original migration\migration\MyDAL\obj\Debug\MyDAL.csproj.CoreCompileInputs.cache
+G:\originaldatamigration\original migration\migration\MyDAL\obj\Debug\MyDAL.csproj.CopyComplete
+G:\originaldatamigration\original migration\migration\MyDAL\obj\Debug\MyDAL.dll
+G:\originaldatamigration\original migration\migration\MyDAL\obj\Debug\MyDAL.pdb
+C:\Users\User\Desktop\migration20190613\MyDAL\obj\Debug\MyDAL.csprojAssemblyReference.cache
+C:\Users\User\Desktop\migration20190613\MyDAL\obj\Debug\MyDAL.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\migration20190613\MyDAL\obj\Debug\MyDAL.dll
+C:\Users\User\Desktop\migration20190613\MyDAL\obj\Debug\MyDAL.pdb
+C:\Users\User\Desktop\migration20190613\MyDAL\bin\Debug\MyDAL.dll.config
+C:\Users\User\Desktop\migration20190613\MyDAL\bin\Debug\MyDAL.dll
+C:\Users\User\Desktop\migration20190613\MyDAL\bin\Debug\MyDAL.pdb
+C:\Users\User\Desktop\migration20190613\MyDAL\bin\Debug\MyDAL.dll.CodeAnalysisLog.xml
+C:\Users\User\Desktop\migration20190613\MyDAL\bin\Debug\MyDAL.dll.lastcodeanalysissucceeded
+C:\Users\User\Desktop\migration20190613\MyDAL\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\User\Desktop\migration20190613\MyDAL\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\migration20190613\MyDAL\bin\Debug\Google.Protobuf.dll
+C:\Users\User\Desktop\migration20190613\MyDAL\bin\Debug\MySql.Data.dll
+C:\Users\User\Desktop\migration20190613\MyDAL\bin\Debug\MySql.Data.Entity.dll
+C:\Users\User\Desktop\migration20190613\MyDAL\bin\Debug\MySql.Data.Entity.EF5.dll
+C:\Users\User\Desktop\migration20190613\MyDAL\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\migration20190613\MyDAL\bin\Debug\Google.Protobuf.xml
+C:\Users\User\Desktop\migration20190613\MyDAL\bin\Debug\MySql.Data.xml
+C:\Users\User\Desktop\migration20190613\MyDAL\obj\Debug\MyDAL.csproj.CopyComplete
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\bin\Debug\MyDAL.dll.config
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\bin\Debug\MyDAL.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\bin\Debug\MyDAL.pdb
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\bin\Debug\MySql.Data.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\bin\Debug\MySql.Data.Entity.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\bin\Debug\MySql.Data.Entity.EF5.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\bin\Debug\MySql.Data.xml
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\obj\Debug\MyDAL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\obj\Debug\MyDAL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\obj\Debug\MyDAL.csproj.CopyComplete
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\obj\Debug\MyDAL.dll
+C:\Users\user\Desktop\newmigration20190613\newmigration20190613\MyDAL\obj\Debug\MyDAL.pdb
+C:\Users\user\Desktop\newmigration20190708\MyDAL\bin\Debug\MyDAL.dll.config
+C:\Users\user\Desktop\newmigration20190708\MyDAL\bin\Debug\MyDAL.dll
+C:\Users\user\Desktop\newmigration20190708\MyDAL\bin\Debug\MyDAL.pdb
+C:\Users\user\Desktop\newmigration20190708\MyDAL\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\user\Desktop\newmigration20190708\MyDAL\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\newmigration20190708\MyDAL\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\newmigration20190708\MyDAL\bin\Debug\MySql.Data.dll
+C:\Users\user\Desktop\newmigration20190708\MyDAL\bin\Debug\MySql.Data.Entity.dll
+C:\Users\user\Desktop\newmigration20190708\MyDAL\bin\Debug\MySql.Data.Entity.EF5.dll
+C:\Users\user\Desktop\newmigration20190708\MyDAL\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\newmigration20190708\MyDAL\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\newmigration20190708\MyDAL\bin\Debug\MySql.Data.xml
+C:\Users\user\Desktop\newmigration20190708\MyDAL\obj\Debug\MyDAL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\newmigration20190708\MyDAL\obj\Debug\MyDAL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\newmigration20190708\MyDAL\obj\Debug\MyDAL.csproj.CopyComplete
+C:\Users\user\Desktop\newmigration20190708\MyDAL\obj\Debug\MyDAL.dll
+C:\Users\user\Desktop\newmigration20190708\MyDAL\obj\Debug\MyDAL.pdb
+G:\Desktop20190712\newmigration20190708\MyDAL\bin\Debug\MyDAL.dll.config
+G:\Desktop20190712\newmigration20190708\MyDAL\bin\Debug\MyDAL.dll
+G:\Desktop20190712\newmigration20190708\MyDAL\bin\Debug\MyDAL.pdb
+G:\Desktop20190712\newmigration20190708\MyDAL\bin\Debug\BouncyCastle.Crypto.dll
+G:\Desktop20190712\newmigration20190708\MyDAL\bin\Debug\EntityFramework.dll
+G:\Desktop20190712\newmigration20190708\MyDAL\bin\Debug\Google.Protobuf.dll
+G:\Desktop20190712\newmigration20190708\MyDAL\bin\Debug\MySql.Data.dll
+G:\Desktop20190712\newmigration20190708\MyDAL\bin\Debug\MySql.Data.Entity.dll
+G:\Desktop20190712\newmigration20190708\MyDAL\bin\Debug\MySql.Data.Entity.EF5.dll
+G:\Desktop20190712\newmigration20190708\MyDAL\bin\Debug\EntityFramework.xml
+G:\Desktop20190712\newmigration20190708\MyDAL\bin\Debug\Google.Protobuf.xml
+G:\Desktop20190712\newmigration20190708\MyDAL\bin\Debug\MySql.Data.xml
+G:\Desktop20190712\newmigration20190708\MyDAL\obj\Debug\MyDAL.csprojAssemblyReference.cache
+G:\Desktop20190712\newmigration20190708\MyDAL\obj\Debug\MyDAL.csproj.CoreCompileInputs.cache
+G:\Desktop20190712\newmigration20190708\MyDAL\obj\Debug\MyDAL.csproj.CopyComplete
+G:\Desktop20190712\newmigration20190708\MyDAL\obj\Debug\MyDAL.dll
+G:\Desktop20190712\newmigration20190708\MyDAL\obj\Debug\MyDAL.pdb
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\bin\Debug\MyDAL.dll.config
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\bin\Debug\MyDAL.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\bin\Debug\MyDAL.pdb
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\bin\Debug\BouncyCastle.Crypto.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\bin\Debug\EntityFramework.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\bin\Debug\Google.Protobuf.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\bin\Debug\MySql.Data.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\bin\Debug\MySql.Data.Entity.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\bin\Debug\MySql.Data.Entity.EF5.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\bin\Debug\EntityFramework.xml
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\bin\Debug\Google.Protobuf.xml
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\bin\Debug\MySql.Data.xml
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\obj\Debug\MyDAL.csproj.CoreCompileInputs.cache
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\obj\Debug\MyDAL.csproj.CopyComplete
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\obj\Debug\MyDAL.dll
+D:\Ashok\TATA_NEW ORDERS\monikaLatestbuilds\newmigration20190713\MyDAL\obj\Debug\MyDAL.pdb
+E:\Migration_Application_17-11-2020\newmigration20190713\MyDAL\bin\Debug\MyDAL.dll.config
+E:\Migration_Application_17-11-2020\newmigration20190713\MyDAL\bin\Debug\MyDAL.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\MyDAL\bin\Debug\MyDAL.pdb
+E:\Migration_Application_17-11-2020\newmigration20190713\MyDAL\bin\Debug\BouncyCastle.Crypto.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\MyDAL\bin\Debug\Dapper.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\MyDAL\bin\Debug\EntityFramework.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\MyDAL\bin\Debug\Google.Protobuf.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\MyDAL\bin\Debug\MySql.Data.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\MyDAL\bin\Debug\MySql.Data.Entity.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\MyDAL\bin\Debug\MySql.Data.Entity.EF5.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\MyDAL\obj\Debug\MyDAL.csproj.CopyComplete
+E:\Migration_Application_17-11-2020\newmigration20190713\MyDAL\obj\Debug\MyDAL.dll
+E:\Migration_Application_17-11-2020\newmigration20190713\MyDAL\obj\Debug\MyDAL.pdb
+E:\Migration_Application_17-11-2020\newmigration20190713\MyDAL\obj\Debug\MyDAL.csprojAssemblyReference.cache

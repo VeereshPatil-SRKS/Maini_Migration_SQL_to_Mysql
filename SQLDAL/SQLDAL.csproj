@@ -1,0 +1,822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C5BA8C5-D3D7-42EC-8A0F-F0902EB98126}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SQLDAL</RootNamespace>
+    <AssemblyName>SQLDAL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.60.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.60.6\lib\net451\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="alarm_history_master.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="configurationtblmachinesensor.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="configurationtblsensordatalink.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="configurationtblsensormaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="configuration_tblpmchecklist.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="configuration_tblpmcheckpoint.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="configuration_tblprimitivemaintainancescheduling.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="configuration_tblsensorgroup.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectionFactory.cs" />
+    <Compile Include="ControlPlan.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="cpDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\ddl.cs" />
+    <Compile Include="DAL\genericworkentry.cs" />
+    <Compile Include="DAL\hmiscreen.cs" />
+    <Compile Include="DAL\livehmiscreen.cs" />
+    <Compile Include="DAL\livelossofentry.cs" />
+    <Compile Include="DAL\livemodedb.cs" />
+    <Compile Include="DAL\livemultiwoselection.cs" />
+    <Compile Include="DAL\lossofentry.cs" />
+    <Compile Include="DAL\mimics.cs" />
+    <Compile Include="DAL\mode.cs" />
+    <Compile Include="DAL\modulehelper.cs" />
+    <Compile Include="DAL\multiwoselection.cs" />
+    <Compile Include="DAL\oeedashboardfinalvariable.cs" />
+    <Compile Include="DAL\oeedashboardvariables.cs" />
+    <Compile Include="DAL\pcbdetails.cs" />
+    <Compile Include="DAL\recipient.cs" />
+    <Compile Include="DAL\shift_mstr.cs" />
+    <Compile Include="DIR.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="document.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentUploaderMaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="employeeDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Evaluation.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="fgAndCellAllocationDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="frommail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="handle_no_ping.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IConnectionFactory.cs" />
+    <Compile Include="IOTGatwayPacketsData.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="jobcard_details.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="loginTrackerDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="machineDetailsWimerasy.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mailmaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="message_code_master.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="message_history_master.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model2.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model2.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model2.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="monthdata.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="operationlog.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="parameter.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="parameters_master.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="parameter_sendor_data.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="parameter_sensor_data_current.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="parameter_sensor_data_level.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="parameter_sensor_data_pressure.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="parameter_sensor_data_temperature.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="parameter_tool_data.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pcbdaq.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pcbdaqin_tbl.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pcbdps_master.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pcb_details.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pcb_parameters.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PINGHANDLER_tbl.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Process.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="productWiseDefectDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="program_execution_master.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="program_master.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reopository.cs" />
+    <Compile Include="revisionDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sapFileGeneratedDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SCC.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sharathtable.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="shift_master.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="smtpdetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SQLDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tblactivitylog.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblAndonDispDet.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblAndonDisplayRotate.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblAndonImageTextScheduledDisplay.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblapp_paths.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblatccounter.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblBookStock.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblbottelneck.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblbreakdown.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblBreakdowncode.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblBreakDownTickect.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblBreakDown_ReportDetails.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblBusinessDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCategory.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCategoryDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCategoryMaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblcell.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCellFinalMaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblcellpart.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCheckList_Details.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCheckList_Header.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblChildFgPartNo.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblClassMaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblControlPlan.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblControlPlanDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblcustomer.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbldailyprodstatu.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbldaytiming.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDefectCodeMaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDepartmentDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDirLineInspector.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDirQualityHead.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbldowntimecategory.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbldowntimedetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDryRun.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblemailescalation.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblEmployeeShiftDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblendcode.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblescalationlog.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblEscalationMatrix.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblEscalationPriorityDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblEscalationTiming.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblFgAndCellAllocation.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblFgPartNoDet.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblGeneralDefectCode.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblgenericworkcode.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblgenericworkentry.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblhistpm.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblholdcode.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblholiday.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblHolidayManagment.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblHolidayTypeMaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblIpAddress.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblIssuedReceived.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbllivedailyprodstatu.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbllivemode.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbllossescode.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbllossofentry.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblmachineaxisdetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblmachinecategory.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblMachineCategoryName.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblmachinedetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblmailid.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblmasterparts_st_sw.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblMasterValue.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblMaterialMaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblmimic.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblmode.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblmodetemp.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblmodule.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblmodulehelper.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblmodulemaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblmultipleworkorder.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblNcProgramTransferMain.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblNoOfAxi.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbloeedashboardfinalvariable.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbloeedashboardvariable.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbloeedashboardvariablestoday.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOperatorDashboard.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOperatorDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOperatorHeader.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOperatorLoginDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOperatorMachineDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPallet.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblpart.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblpartlearningreport.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblpartscountandcutting.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblpir.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblpirminmax.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPlanLinkageMaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblplannedbreak.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblplant.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblpmsdetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPrecentColour.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPresentTool.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblpriorityalarm.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProcess.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProdPlanMaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProduct.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProductWiseDefectCode.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblprogramtransferhistory.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRaisedTicket.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRejectionDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblrejectqty.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblrejectreason.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblreportholder.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblReworkDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblReworkReason.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblrole.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblrolemodulelink.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRoutingNo.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSAPInput.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSar.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSarminmax.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblsendermailid.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSetupMaint.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblshiftdetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblshiftdetails_machinewise.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblshiftmethod.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblshiftplanner.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblshift_breaks.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblshift_mstr.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblshop.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSmsDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSourceMaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStatusMaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStdToolLife.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStoppage.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSubCellFinalMaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSystemConfig.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTallStockAvailibility.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTicketRaisedDet.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTicketReason.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTool.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblToolAndSocketDetail.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblToolBrDnReasonLvl1.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblToolBrkDnReason.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblToolCounter.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbltoollifeoperator.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbltosapfilepath.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbltosapshopname.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTrialPartCount.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblunit.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbluser.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblwolossess.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblworeport.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblWorkCenter.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblworkorderentry.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_autoreportbasedon.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_autoreportsetting.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_autoreporttime.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_autoreport_log.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_axisdet.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_axisdetails1.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_axisdetails2.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_CategoryNames.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_CheckListMachines.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_CycleTimeAnalysis.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_deletedProgDet.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_genericfilepath.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_livecbmdetails.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_livecbmparameters.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_livetblsensorvalue.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_MachineMakeDetails.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_OEEDetails.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_OEEOperatorDetails.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_oeereportasdivision.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_OEEShiftDetails.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_PMSDashboardCheckList.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_ProdAndonDisp.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_ProdManMachine.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_ProdOrderLosses.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_reportmaster.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_SaveNCProgVer.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_ScreenPagesDetails.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_servodetails.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_UtilReport.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="weekdata.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="Model2.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model2.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model2.edmx.diagram">
+      <DependentUpon>Model2.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyDAL\MyDAL.csproj">
+      <Project>{adc299b5-f089-493d-a710-829aee7b3e27}</Project>
+      <Name>MyDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model2.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model2.edmx</DependentUpon>
+      <LastGenOutput>Model2.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model2.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model2.edmx</DependentUpon>
+      <LastGenOutput>Model2.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

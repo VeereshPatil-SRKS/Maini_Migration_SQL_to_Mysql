@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4fe66ab6407b4ce99b3c01f491fbb71a" Name="Diagram1">
+        <EntityTypeShape EntityType="mazakdaqModel.alarm_history_master" Width="1.5" PointX="10.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.alarm_master" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.alarm_report" Width="1.5" PointX="5.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.automaticjobcard" Width="1.5" PointX="7.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.book" Width="1.5" PointX="12.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.code_master" Width="1.5" PointX="12.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.cutting_time_report" Width="1.5" PointX="12.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.cutting_time_report_pdf" Width="1.5" PointX="9.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.day_st_end_time" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.frommail" Width="1.5" PointX="2.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.handle_no_ping" Width="1.5" PointX="4.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.jobcard_details" Width="1.5" PointX="14.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.machine_master" Width="1.5" PointX="14.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.mailmaster" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.mailmasterprogesc" Width="1.5" PointX="11.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.main_time_rep" Width="1.5" PointX="13.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.message_code_master" Width="1.5" PointX="15.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.message_history_master" Width="1.5" PointX="16.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.opcuttimereport" Width="1.5" PointX="16.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.opcuttimereport_pdf" Width="1.5" PointX="16.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.operating_time_report" Width="1.5" PointX="17.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.operating_time_report_pdf" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.operationlog" Width="1.5" PointX="2.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.parameter" Width="1.5" PointX="4.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.parameters_master" Width="1.5" PointX="6.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.pcb" Width="1.5" PointX="8.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.pcb_details" Width="1.5" PointX="17.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.pcb_parameters" Width="1.5" PointX="18.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.pcbdaq" Width="1.5" PointX="18.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.pcbdaqin_tbl" Width="1.5" PointX="10.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.pcbdps_master" Width="1.5" PointX="19.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.program_master" Width="1.5" PointX="19.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.program_temp" Width="1.5" PointX="19.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.recipientmailid" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.role_master" Width="1.5" PointX="20.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.shift_master" Width="1.5" PointX="20.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbl_autoreport_log" Width="1.5" PointX="7.5" PointY="67.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbl_autoreportbasedon" Width="1.5" PointX="3" PointY="58.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbl_autoreportsetting" Width="1.5" PointX="5.25" PointY="60.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbl_autoreporttime" Width="1.5" PointX="3" PointY="61.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbl_multiwoselection" Width="1.5" PointX="21" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbl_reportmaster" Width="1.5" PointX="3" PointY="72.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblactivitylog" Width="1.5" PointX="12.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblapp_paths" Width="1.5" PointX="14.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblbreakdown" Width="1.5" PointX="10.5" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblbreakdowncode" Width="1.5" PointX="16.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblcell" Width="1.5" PointX="8.25" PointY="61.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblcustomer" Width="1.5" PointX="0.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbldailyprodstatu" Width="1.5" PointX="18.75" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbldailyprodstatushi" Width="1.5" PointX="2.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbldaytiming" Width="1.5" PointX="4.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblddl" Width="1.5" PointX="6.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbldowntimecategory" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbldowntimedetail" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblemailescalation" Width="1.5" PointX="10.5" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblemailreporttype" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblendcode" Width="1.5" PointX="8.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblescalationlog" Width="1.5" PointX="10.5" PointY="42.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblgenericworkcode" Width="1.5" PointX="10.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblgenericworkentry" Width="1.5" PointX="13" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblhmiscreen" Width="1.5" PointX="18.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblholdcode" Width="1.5" PointX="21.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbllivedailyprodstatu" Width="1.5" PointX="18.75" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbllivehmiscreen" Width="1.5" PointX="18.75" PointY="51.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbllivehmiscreenrep" Width="1.5" PointX="18.75" PointY="67.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbllivelossofentry" Width="1.5" PointX="10.5" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbllivelossofentryrep" Width="1.5" PointX="10.5" PointY="51.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbllivemanuallossofentry" Width="1.5" PointX="10.5" PointY="67.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbllivemanuallossofentryrep" Width="1.5" PointX="10.5" PointY="72.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbllivemode" Width="1.5" PointX="18.75" PointY="74.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbllivemodedb" Width="1.5" PointX="18.75" PointY="79.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbllivemultiwoselection" Width="1.5" PointX="21" PointY="51" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbllivemultiwoselectionrep" Width="1.5" PointX="21" PointY="55.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbllossescode" Width="1.5" PointX="8.25" PointY="54.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbllossofentry" Width="1.5" PointX="10.5" PointY="77.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblmachine_master" Width="1.5" PointX="21.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblmachineallocation" Width="1.5" PointX="21.75" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblmachinecategory" Width="1.5" PointX="21.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblmachinedetail" Width="1.5" PointX="16.5" PointY="58.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblmachinedetailsnew" Width="1.5" PointX="13.5" PointY="60.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblmailid" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblmanuallossofentry" Width="1.5" PointX="10.5" PointY="82.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblmasterparts_st_sw" Width="1.5" PointX="22.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblmimic" Width="1.5" PointX="18.75" PointY="84" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblmode" Width="1.5" PointX="18.75" PointY="87.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblmodulehelper" Width="1.5" PointX="23.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblmodulemaster" Width="1.5" PointX="21.5" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblmultipleworkorder" Width="1.5" PointX="21.75" PointY="66.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblnetworkdetailsforddl" Width="1.5" PointX="23.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbloeedashboardfinalvariable" Width="1.5" PointX="23.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbloeedashboardvariable" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbloeedashboardvariablestoday" Width="1.5" PointX="2.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblpart" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblpartwisesp" Width="1.5" PointX="18.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblpartwiseworkcenter" Width="1.5" PointX="18.75" PointY="95.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblplannedbreak" Width="1.5" PointX="21.75" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblplant" Width="1.5" PointX="0.75" PointY="55.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblpriorityalarm" Width="1.5" PointX="20.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblreportholder" Width="1.5" PointX="25.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblroleplaymaster" Width="1.5" PointX="23.75" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblrole" Width="1.5" PointX="21.5" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblsendermailid" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblshift_breaks" Width="1.5" PointX="8.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblshift_mstr" Width="1.5" PointX="19.5" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblshiftdetail" Width="1.5" PointX="8" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblshiftdetails_machinewise" Width="1.5" PointX="18.75" PointY="98.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblshiftmethod" Width="1.5" PointX="5.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblshiftplanner" Width="1.5" PointX="18.75" PointY="60.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblshop" Width="1.5" PointX="3" PointY="67.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbltosapfilepath" Width="1.5" PointX="10.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbltosapshopname" Width="1.5" PointX="25.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblunit" Width="1.5" PointX="5.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tbluser" Width="1.5" PointX="23.75" PointY="56.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblwolossess" Width="1.5" PointX="12.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.tblworeport" Width="1.5" PointX="14.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.user_master" Width="1.5" PointX="25.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.main_time_view" Width="1.5" PointX="25.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.parametermaster_view" Width="1.5" PointX="25.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mazakdaqModel.person" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="mazakdaqModel.AutoEmailType" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.AutoReportID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.BasedOnID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ReportCellID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ReportID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ReportPlantID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ReportShopID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ReportTimeID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ReportWorkCentreID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.fkHMIID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.BreakdowncodeId" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.CellIDFK" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.CellIDshiftplanner" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.CellIDtblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.CellIDtblmachinedetailsnew" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.CellIDtblMWO" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.PlantsId" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ShopId" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.MachineID1" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.tbldowntimedetails_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.PlantIDFK" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ReasonLevel1FK" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ReasonLevel2FK" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ReasonLevel3FK" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ShopIDFK" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.WCIDFK" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ERTID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.EscalationLossCodeID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.GenericWorkID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.MachineIDhmi" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.MachineIDLDPS" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.fkHMIIDMWOLiverep" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.fkwoliveHMIID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.MachineIDhmiLive" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.MachineIDhmiLiveRep" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.LossCodeIDLiveLoss" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.LossCodeIDLiveLossRep" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ManualLossCodeIDLive" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ManualLossCodeIDLiveRep" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.machineryLive" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.machineryDBLive" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.LossCodeID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ManualLossCodeID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.macid" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.shiftid" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.userid" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.MachineID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.MachineIDshiftplanner" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.MachineIDShiftWise" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.machinery" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.Mid" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.PlantIDtblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ShopIDtblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.WCIDtblMWO" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.WorkCenterId" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.PlantIDtblmachinedetailsnew" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ShopIDtblmachinedetailsnew" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ModuleID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.PlantIDtblMWO" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ShopIdtblMWO" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.U_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.shiftbreak" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.PlantID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.PlantIDshiftplanner" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.RoleID" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.PrimaryRole" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.SecondaryRole" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ShiftMethodIDshiftmethod" ManuallyRouted="false" />
+        <AssociationConnector Association="mazakdaqModel.ShopIDshiftplanner" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
