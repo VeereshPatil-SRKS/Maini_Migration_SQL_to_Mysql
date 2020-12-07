@@ -48,6 +48,676 @@ namespace SQLDAL
         }
 
 
+        public List<IOTGatwayPacketsData> GetIotgate()
+        {
+            //string item = "";
+
+            List<IOTGatwayPacketsData> Plant = new List<IOTGatwayPacketsData>();
+            SQLDAL.Reopository<IOTGatwayPacketsData> lista = new SQLDAL.Reopository<IOTGatwayPacketsData>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.IOTGatwayPacketsData";
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+        public List<parameter_sendor_data> GetsqlParameterSensorData()
+        {
+            //string item = "";
+
+            List<parameter_sendor_data> Plant = new List<parameter_sendor_data>();
+            SQLDAL.Reopository<parameter_sendor_data> lista = new SQLDAL.Reopository<parameter_sendor_data>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.parameter_sendor_data";
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+        public List<parameter_tool_data> GetsqlParameterTool()
+        {
+            //string item = "";
+
+            List<parameter_tool_data> Plant = new List<parameter_tool_data>();
+            SQLDAL.Reopository<parameter_tool_data> lista = new SQLDAL.Reopository<parameter_tool_data>();
+            try
+            {
+                 string query = "SELECT *  from unitworkccs.parameter_tool_data";
+
+
+               // string query = "SELECT top 1000 * from unitworkccs.parameter_tool_data";
+
+
+
+           Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+        public List<parameters_master> GetsqlParameterMaster()
+        {
+            //string item = "";
+
+            List<parameters_master> Plant = new List<parameters_master>();
+            SQLDAL.Reopository<parameters_master> lista = new SQLDAL.Reopository<parameters_master>();
+            try
+            {
+                 string query = "SELECT *  from unitworkccs.parameters_master";
+
+
+               // string query = "SELECT top 1000 * from unitworkccs.parameters_master ";
+
+
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+        public List<pcbdaqinTblEntiyt> Getsqlpcbdaqin_tbl()
+        {
+            //string item = "";
+
+            List<pcbdaqinTblEntiyt> Plant = new List<pcbdaqinTblEntiyt>();
+            SQLDAL.Reopository<pcbdaqinTblEntiyt> lista = new SQLDAL.Reopository<pcbdaqinTblEntiyt>();
+            try
+            {
+                 string query = "SELECT *  from unitworkccs.pcbdaqin_tbl";
+
+
+                //  string query = "SELECT top 1000 * from unitworkccs.pcbdaqin_tbl";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+        public List<tbl_axisdetails1> GetsqlAxisdetails1()
+        {
+            //string item = "";
+
+            List<tbl_axisdetails1> Plant = new List<tbl_axisdetails1>();
+            SQLDAL.Reopository<tbl_axisdetails1> lista = new SQLDAL.Reopository<tbl_axisdetails1>();
+            try
+            {
+                 string query = "SELECT *  from unitworkccs.tbl_axisdetails1";
+
+
+                //  string query = "SELECT top 1000 * from unitworkccs.tbl_axisdetails1";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+        public List<tbl_axisdetails2> GetsqlAxisdetails2()
+        {
+            //string item = "";
+
+            List<tbl_axisdetails2> Plant = new List<tbl_axisdetails2>();
+            SQLDAL.Reopository<tbl_axisdetails2> lista = new SQLDAL.Reopository<tbl_axisdetails2>();
+            try
+            {
+                 string query = "SELECT *  from unitworkccs.tbl_axisdetails2";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbl_axisdetails2";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+        public List<tblpartscountandcutting> Getsqltblpartscountandcutting()
+        {
+            //string item = "";
+
+            List<tblpartscountandcutting> Plant = new List<tblpartscountandcutting>();
+            SQLDAL.Reopository<tblpartscountandcutting> lista = new SQLDAL.Reopository<tblpartscountandcutting>();
+            try
+            {
+                 string query = "SELECT *  from unitworkccs.tblpartscountandcutting";
+
+
+                //  string query = "SELECT top 1000 * from unitworkccs.tblpartscountandcutting";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+        public List<tbllivemode> GetsqlliveMode()
+        {
+            //string item = "";
+
+            List<tbllivemode> Plant = new List<tbllivemode>();
+            SQLDAL.Reopository<tbllivemode> lista = new SQLDAL.Reopository<tbllivemode>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.tbllivemode";
+
+
+                //  string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+        public List<tblFgAndCellAllocation> GetsqlFgpartCellAllow()
+        {
+            //string item = "";
+
+            List<tblFgAndCellAllocation> Plant = new List<tblFgAndCellAllocation>();
+            SQLDAL.Reopository<tblFgAndCellAllocation> lista = new SQLDAL.Reopository<tblFgAndCellAllocation>();
+            try
+            {
+                 string query = "SELECT *  from unitworkccs.tblfgandcellallocation";
+
+
+               // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+        public List<tblDefectCodeMaster> GetsqlDefectcodemaster()
+        {
+            //string item = "";
+
+            List<tblDefectCodeMaster> Plant = new List<tblDefectCodeMaster>();
+            SQLDAL.Reopository<tblDefectCodeMaster> lista = new SQLDAL.Reopository<tblDefectCodeMaster>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.tbldefectcodemaster";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+        public List<tblChildFgPartNo> GetsqltblChildFgPartNo()
+        {
+            //string item = "";
+
+            List<tblChildFgPartNo> Plant = new List<tblChildFgPartNo>();
+            SQLDAL.Reopository<tblChildFgPartNo> lista = new SQLDAL.Reopository<tblChildFgPartNo>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.tblchildfgpartno";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+        public List<tbl_UtilReport> Getsqltbl_UtilReport()
+        {
+            //string item = "";
+
+            List<tbl_UtilReport> Plant = new List<tbl_UtilReport>();
+            SQLDAL.Reopository<tbl_UtilReport> lista = new SQLDAL.Reopository<tbl_UtilReport>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.tbl_UtilReport";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+        public List<tblBreakdowncode> GetsqltbltblBreakdowncodes()
+        {
+            //string item = "";
+
+            List<tblBreakdowncode> Plant = new List<tblBreakdowncode>();
+            SQLDAL.Reopository<tblBreakdowncode> lista = new SQLDAL.Reopository<tblBreakdowncode>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.tblBreakdowncodes";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+        public List<tblpriorityalarm> Getsqltblpriorityalarms()
+        {
+            //string item = "";
+
+            List<tblpriorityalarm> Plant = new List<tblpriorityalarm>();
+            SQLDAL.Reopository<tblpriorityalarm> lista = new SQLDAL.Reopository<tblpriorityalarm>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.tblpriorityalarms";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+        public List<alarm_history_master> Getsqlalarm_history_maste()
+        {
+            //string item = "";
+
+            List<alarm_history_master> Plant = new List<alarm_history_master>();
+            SQLDAL.Reopository<alarm_history_master> lista = new SQLDAL.Reopository<alarm_history_master>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.alarm_history_master";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+        public List<tblFgPartNoDet> Getsqltblfgpartnodet()
+        {
+            //string item = "";
+
+            List<tblFgPartNoDet> Plant = new List<tblFgPartNoDet>();
+            SQLDAL.Reopository<tblFgPartNoDet> lista = new SQLDAL.Reopository<tblFgPartNoDet>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.tblFgPartNoDet";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+        public List<tbl_ProdManMachine> Getsqltbl_prodmanmachine()
+        {
+            //string item = "";
+
+            List<tbl_ProdManMachine> Plant = new List<tbl_ProdManMachine>();
+            SQLDAL.Reopository<tbl_ProdManMachine> lista = new SQLDAL.Reopository<tbl_ProdManMachine>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.tbl_ProdManMachine";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+        public List<tblRejectionDetail> GetsqltblRejectionDetails()
+        {
+            //string item = "";
+
+            List<tblRejectionDetail> Plant = new List<tblRejectionDetail>();
+            SQLDAL.Reopository<tblRejectionDetail> lista = new SQLDAL.Reopository<tblRejectionDetail>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.tblRejectionDetails";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+        public List<configuration_tblprimitivemaintainancescheduling> Getsqlconfiguration_tblprimitivemaintainancescheduling()
+        {
+            //string item = "";
+
+            List<configuration_tblprimitivemaintainancescheduling> Plant = new List<configuration_tblprimitivemaintainancescheduling>();
+            SQLDAL.Reopository<configuration_tblprimitivemaintainancescheduling> lista = new SQLDAL.Reopository<configuration_tblprimitivemaintainancescheduling>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.configuration_tblprimitivemaintainancescheduling";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+
+        public List<tblSmsDetail> GetsqltblSmsDetails()
+        {
+            //string item = "";
+
+            List<tblSmsDetail> Plant = new List<tblSmsDetail>();
+            SQLDAL.Reopository<tblSmsDetail> lista = new SQLDAL.Reopository<tblSmsDetail>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.tblSmsDetails";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+        public List<operationlog> Getsqloperationlog()
+        {
+            //string item = "";
+
+            List<operationlog> Plant = new List<operationlog>();
+            SQLDAL.Reopository<operationlog> lista = new SQLDAL.Reopository<operationlog>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.operationlog";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+        public List<tblStoppage> GetsqltblStoppage()
+        {
+            //string item = "";
+
+            List<tblStoppage> Plant = new List<tblStoppage>();
+            SQLDAL.Reopository<tblStoppage> lista = new SQLDAL.Reopository<tblStoppage>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.tblStoppage";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+        public List<tblProductWiseDefectCode> GetsqltblProductWiseDefectCode()
+        {
+            //string item = "";
+
+            List<tblProductWiseDefectCode> Plant = new List<tblProductWiseDefectCode>();
+            SQLDAL.Reopository<tblProductWiseDefectCode> lista = new SQLDAL.Reopository<tblProductWiseDefectCode>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.tblProductWiseDefectCode";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+        public List<tblmachinedetail> Getsqltblmachinedetails()
+        {
+            //string item = "";
+
+            List<tblmachinedetail> Plant = new List<tblmachinedetail>();
+            SQLDAL.Reopository<tblmachinedetail> lista = new SQLDAL.Reopository<tblmachinedetail>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.tblmachinedetails";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+        public List<loginTrackerDetail> Getsqllogintrackerdetails()
+        {
+            //string item = "";
+
+            List<loginTrackerDetail> Plant = new List<loginTrackerDetail>();
+            SQLDAL.Reopository<loginTrackerDetail> lista = new SQLDAL.Reopository<loginTrackerDetail>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.loginTrackerDetails";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+        public List<tblpart> Getsqltblparts()
+        {
+            //string item = "";
+
+            List<tblpart> Plant = new List<tblpart>();
+            SQLDAL.Reopository<tblpart> lista = new SQLDAL.Reopository<tblpart>();
+            try
+            {
+                string query = "SELECT *  from unitworkccs.tblparts";
+
+
+                // string query = "SELECT top 1000 * from unitworkccs.tbllivemode";
+
+                Plant = lista.GetList(query, _connectionFactory.GetConnection);
+
+            }
+            catch (Exception ex)
+            {
+                //  IntoFile(ex.ToString());
+                // MessageBox.Show(ex.ToString());
+            }
+            return Plant;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
 
         public Task<int> insert_ddlMysqlPlantSQl(List<tblplant> datalist)
         {

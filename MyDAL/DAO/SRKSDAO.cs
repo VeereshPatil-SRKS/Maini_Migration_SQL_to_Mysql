@@ -61,6 +61,572 @@ namespace MyDAL.DAO
             }
             return plantList;
         }
+        public List<IOTGatewayEntity> getIOTGate()
+        {
+
+
+            List<IOTGatewayEntity> plantList = new List<IOTGatewayEntity>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.iotgatwaypacketsdata`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<IOTGatewayEntity>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+        public List<ParameterMasterSensorData> getParameterMasterSensorData()
+        {
+
+
+            List<ParameterMasterSensorData> plantList = new List<ParameterMasterSensorData>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.parameter_sendor_data`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<ParameterMasterSensorData>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+        public List<paraToolData> getParameterTool()
+        {
+
+
+            List<paraToolData> plantList = new List<paraToolData>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.parameter_tool_data`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<paraToolData>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+        public List<parameterMasterEntity> getParameterMaster()
+        {
+
+
+            List<parameterMasterEntity> plantList = new List<parameterMasterEntity>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.parameters_master`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<parameterMasterEntity>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+        public List<pcbdaqinTblEntiyt> getpcbdaqin_tbl()
+        {
+
+
+            List<pcbdaqinTblEntiyt> plantList = new List<pcbdaqinTblEntiyt>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.pcbdaqin_tbl`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<pcbdaqinTblEntiyt>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+        public List<Axisdetails1Entity> getAxisdetails1()
+        {
+
+
+            List<Axisdetails1Entity> plantList = new List<Axisdetails1Entity>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tbl_axisdetails1`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<Axisdetails1Entity>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+        public List<Adixdetails2Entity> getAxisdetails2()
+        {
+
+
+            List<Adixdetails2Entity> plantList = new List<Adixdetails2Entity>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tbl_axisdetails2`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<Adixdetails2Entity>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+        public List<partsAndCuuting> gettblpartscountandcutting()
+        {
+
+
+            List<partsAndCuuting> plantList = new List<partsAndCuuting>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tblpartscountandcutting`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<partsAndCuuting>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+        public List<LiveModeentity> gettblLiveMode()
+        {
+
+
+            List<LiveModeentity> plantList = new List<LiveModeentity>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tbllivemode`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<LiveModeentity>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+        public List<fgpartentity> gettfgpartCellAllow()
+        {
+
+
+            List<fgpartentity> plantList = new List<fgpartentity>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tblfgandcellallocation`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<fgpartentity>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+        public List<defectcodemsasteentity> getDefectCodemaster()
+        {
+
+
+            List<defectcodemsasteentity> plantList = new List<defectcodemsasteentity>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tbldefectcodemaster`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<defectcodemsasteentity>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+        public List<ChildFgPartNo> gettblChildFgPartNo()
+        {
+
+
+            List<ChildFgPartNo> plantList = new List<ChildFgPartNo>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tblChildFgPartNo`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<ChildFgPartNo>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+        public List<utilreportE> gettbl_UtilReport()
+        {
+
+
+            List<utilreportE> plantList = new List<utilreportE>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tbl_utilreport`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<utilreportE>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+
+        public List<tblbreakdowncodesE> gettbl_tblbreakdowncodes()
+        {
+
+
+            List<tblbreakdowncodesE> plantList = new List<tblbreakdowncodesE>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tblbreakdowncodes`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<tblbreakdowncodesE>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+        public List<tblpriorityalarmsE> gettbl_tblpriorityalarms()
+        {
+
+
+            List<tblpriorityalarmsE> plantList = new List<tblpriorityalarmsE>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tblpriorityalarms`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<tblpriorityalarmsE>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+        public List<alarm_history_masterE> getalarm_history_master()
+        {
+
+
+            List<alarm_history_masterE> plantList = new List<alarm_history_masterE>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.alarm_history_master`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<alarm_history_masterE>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+        public List<tblfgpartnodetE> gettblfgpartnodet()
+        {
+
+
+            List<tblfgpartnodetE> plantList = new List<tblfgpartnodetE>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tblfgpartnodet`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<tblfgpartnodetE>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+        public List<tbl_prodmanmachineE> gettbl_prodmanmachine()
+        {
+
+
+            List<tbl_prodmanmachineE> plantList = new List<tbl_prodmanmachineE>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tbl_prodmanmachine`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<tbl_prodmanmachineE>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+        public List<tblrejectiondetailsE> gettbl_tblrejectiondetails()
+        {
+
+
+            List<tblrejectiondetailsE> plantList = new List<tblrejectiondetailsE>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tblrejectiondetails`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<tblrejectiondetailsE>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+
+        public List<configuration_tblprimitivemaintainE_> gettbl_configuration_tblprimitive()
+        {
+
+
+            List<configuration_tblprimitivemaintainE_> plantList = new List<configuration_tblprimitivemaintainE_>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.configuration_tblprimitivemaintainancescheduling`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<configuration_tblprimitivemaintainE_>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+        public List<tblsmsdetailsE> gettbl_tblSmsDetails()
+        {
+
+
+            List<tblsmsdetailsE> plantList = new List<tblsmsdetailsE>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tblsmsdetails`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<tblsmsdetailsE>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+        public List<operationlogE> gettbl_operationlog()
+        {
+
+
+            List<operationlogE> plantList = new List<operationlogE>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.operationlog`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<operationlogE>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+        public List<tblstoppageE> gettbl_tblstoppage()
+        {
+
+
+            List<tblstoppageE> plantList = new List<tblstoppageE>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tblstoppage`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<tblstoppageE>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+        public List<tblproductwisedefectcodesE> gettbl_tblproductwisedefectcodes()
+        {
+
+
+            List<tblproductwisedefectcodesE> plantList = new List<tblproductwisedefectcodesE>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tblproductwisedefectcodes`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<tblproductwisedefectcodesE>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+        public List<tblmachinedetailsE> gettbl_tblmachinedetails()
+        {
+
+
+            List<tblmachinedetailsE> plantList = new List<tblmachinedetailsE>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tblmachinedetails`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<tblmachinedetailsE>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+        public List<logintrackerdetailsE> gettbl_logintrackerdetails()
+        {
+
+
+            List<logintrackerdetailsE> plantList = new List<logintrackerdetailsE>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.logintrackerdetails`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<logintrackerdetailsE>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+        public List<tblpartsE> gettbl_tblparts()
+        {
+
+
+            List<tblpartsE> plantList = new List<tblpartsE>();
+            try
+            {
+
+                string qry = "SELECT * From  " + ConnectionFactory.DBCon + "." + "`unitworkccs.tblparts`";
+                plantList = _connectionFactory.GetConnection.QueryAsync<tblpartsE>(qry).Result.ToList();
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            return plantList;
+        }
+
+
+
+
+
+
+
+
+
+
+
 
 
         public Task<int> insert_ddlMysqlPlant(List<MyDAL.Model.tblplant> datalist)
@@ -171,6 +737,830 @@ namespace MyDAL.DAO
             }
             return Task.FromResult<int>(res);
         }
+
+
+
+        public Task<int> insert_IOTgate(List<IOTGatewayEntity> datalist)
+        {
+            int res = 0;
+            //List<configuration_tblplant> ddllist = new List<configuration_tblplant>();
+            //foreach (var row in datalist)
+            //{
+            //    configuration_tblplant dlist = new configuration_tblplant();
+            //    dlist.PlantID = row.PlantID;
+            //    dlist.PlantName = row.PlantName;
+            //    dlist.PlantDesc = row.PlantDesc;
+            //    dlist.CreatedOn = row.CreatedOn;
+            //    dlist.CreatedBy = row.CreatedBy;
+
+            //    dlist.IsDeleted = row.IsDeleted;
+
+            //    ddllist.Add(dlist);
+
+            //}
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+                string query = "INSERT INTO `unitworkccs.iotgatwaypacketsdata`(GatewayMsgID, SOF, SiteId, UnitId, PacketType, Time, Date, IPAddres, ProductSerialNo, SWversion, NumOfNodeDetected, NumOfNodeActive, NodeId, NodeCommunication, NodePayLoadLength, NodeDataPayLoad, EOF, IOTGateWayMsg, CorrectedDate, TypeOfDevice, DevicePayLoadLength, AlaramInput1_16, AlaramInput2_17, AlaramInput3_18, AlaramInput4_19, AlaramInput5_20, AlaramInput6_22, AlaramInput7_23, AlaramInput8_24, Reserved, RelayFeedbak1Status, RelayFeedbak2Status, RelayFeedbak3Status, RelayFeedbak4Status, CreatedOn) VALUES( @GatewayMsgID,@SOF,@SiteId,@UnitId,@PacketType,@Time,@Date,@IPAddres,@ProductSerialNo,@SWversion,@NumOfNodeDetected,@NumOfNodeActive,@NodeId,@NodeCommunication,@NodePayLoadLength,@NodeDataPayLoad,@EOF,@IOTGateWayMsg,@CorrectedDate,@TypeOfDevice,@DevicePayLoadLength,@AlaramInput1_16,@AlaramInput2_17,@AlaramInput3_18,@AlaramInput4_19,@AlaramInput5_20,@AlaramInput6_22,@AlaramInput7_23,@AlaramInput8_24,@Reserved,@RelayFeedbak1Status,@RelayFeedbak2Status,@RelayFeedbak3Status,@RelayFeedbak4Status,@CreatedOn)";
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+
+        public Task<int> insert_paraSensorData(List<ParameterMasterSensorData> datalist)
+        {
+            int res = 0;
+           
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+                
+                string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+               
+               // string query = "INSERT INTO `unitworkccs.parameter_tool_data`(parameterToolDataId,machineId,parameterToolDataCapturedDate,toolGroupName,toolNumber,capacity,partsproduced,createdOn,isDeleted,correctedDate) VALUES( parameterToolDataId,@machineId,@parameterToolDataCapturedDate,@toolGroupName,@toolNumber,@capacity,@partsproduced,@createdOn,@isDeleted,@correctedDate)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+
+        public Task<int> insert_paraTooldata(List<paraToolData> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.parameter_tool_data`(parameterToolDataId,machineId,parameterToolDataCapturedDate,toolGroupName,toolNumber,capacity,partsproduced,createdOn,isDeleted,correctedDate) VALUES( @parameterToolDataId,@machineId,@parameterToolDataCapturedDate,@toolGroupName,@toolNumber,@capacity,@partsproduced,@createdOn,@isDeleted,@correctedDate)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+        public Task<int> insert_paraMaster(List<parameterMasterEntity> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.parameters_master`(ParameterID,SetupTime,OperatingTime,PowerOnTime,PartsCount,InsertedOn,MachineID,Shift,CorrectedDate,AutoCutTime,Total_CutTime,PartsTotal,CuttingTime,AutoMode) VALUES( @ParameterID,@SetupTime,@OperatingTime,@PowerOnTime,@PartsCount,@InsertedOn,@MachineID,@Shift,@CorrectedDate,@AutoCutTime,@Total_CutTime,@PartsTotal,@CuttingTime,@AutoMode)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+        public Task<int> insert_ppcbdaqin(List<pcbdaqinTblEntiyt> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.pcbdaqin_tbl`( DAQINID,PCBIPAddress,ParamPIN,ParamValue,CreatedOn,CreatedBy) VALUES(@DAQINID,@PCBIPAddress,@ParamPIN,@ParamValue,@CreatedOn,@CreatedBy)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+        public Task<int> insert_axisdetails1(List<Axisdetails1Entity> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tbl_axisdetails1`( ADID,MachineID,Axis,AbsPos,RelPos,MacPos,DistPos,StartTime,EndTime,IsDeleted,InsertedOn ) VALUES(@ADID,@MachineID,@Axis,@AbsPos,@RelPos,@MacPos,@DistPos,@StartTime,@EndTime,@IsDeleted,@InsertedOn)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+        public Task<int> insert_axisdetails2(List<Adixdetails2Entity> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tbl_axisdetails2`( AD2ID,MachineID,StartTime,EndTime,FeedRate,SpindleLoad,SpindleSpeed,IsDeleted,InsertedOn,FeedRatePercentage) VALUES(@AD2ID,@MachineID,@StartTime,@EndTime,@FeedRate,@SpindleLoad,@SpindleSpeed,@IsDeleted,@InsertedOn,@FeedRatePercentage)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+        public Task<int> insert_tblpartscountandcutting(List<partsAndCuuting> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tblpartscountandcutting`( pcid,MachineID,PartCount,CuttingTime,TargetQuantity,StartTime,EndTime,Isdeleted,CreatedOn,CorrectedDate,CreatedBy,ModifiedOn,ModifiedBy,PartsPerCyscleEnteredTime,WoPartCount,ShiftName,CuttingTimeInSec,woTargetQty,rejectionQty,reworkQty,actualQty,dryRunQty,OkQty) VALUES(@pcid,@MachineID,@PartCount,@CuttingTime,@TargetQuantity,@StartTime,@EndTime,@Isdeleted,@CreatedOn,@CorrectedDate,@CreatedBy,@ModifiedOn,@ModifiedBy,@PartsPerCyscleEnteredTime,@WoPartCount,@ShiftName,@CuttingTimeInSec,@woTargetQty,@rejectionQty,@reworkQty,@actualQty,@dryRunQty,@OkQty)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+        public Task<int> insert_livemode(List<LiveModeentity> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tbllivemode`(  ModeID,MachineID,MacMode,InsertedOn,InsertedBy,ModifiedOn,ModifiedBy,CorrectedDate,IsDeleted,StartTime,EndTime,ColorCode,IsCompleted,DurationInSec,LossCodeID,BreakdownID,ModeType,ModeTypeEnd,StartIdle,LossCodeEnteredTime,LossCodeEnteredBy,IsInserted,TotalPartsCount,CuttingDuration,IsShiftEnd,breakDownCodeID,shift) VALUES(@ModeID,@MachineID,@MacMode,@InsertedOn,@InsertedBy,@ModifiedOn,@ModifiedBy,@CorrectedDate,@IsDeleted,@StartTime,@EndTime,@ColorCode,@IsCompleted,@DurationInSec,@LossCodeID,@BreakdownID,@ModeType,@ModeTypeEnd,@StartIdle,@LossCodeEnteredTime,@LossCodeEnteredBy,@IsInserted,@TotalPartsCount,@CuttingDuration,@IsShiftEnd,@breakDownCodeID,@shift)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+        public Task<int> insert_tblfgandcellallocation(List<fgpartentity> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tblfgandcellallocation`(  fgAndCellAllocationId,plantId,partNo,cellFinalId,subCellFinalId,isDeleted,createdOn,createdBy,modifiedOn,modifiedBy,partName,dmcCodeStatus) VALUES(@fgAndCellAllocationId,@plantId,@partNo,@cellFinalId,@subCellFinalId,@isDeleted,@createdOn,@createdBy,@modifiedOn,@modifiedBy,@partName,@dmcCodeStatus)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+
+
+        public Task<int> insert_tblDefectCode(List<defectcodemsasteentity> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tbldefectcodemaster`(  defectCodeId,defectCodeName,defectCodeDesc,isDeleted,createdOn,createdBy,modifiedOn,modifiedBy) VALUES( @defectCodeId,@defectCodeName,@defectCodeDesc,@isDeleted,@createdOn,@createdBy,@modifiedOn,@modifiedBy)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+        public Task<int> insert_tblchildfgpartno(List<ChildFgPartNo> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tblchildfgpartno`(childFgpartId,childFgPartNo,childPartNoDesc,plantId,fgPartNo,isDeleted,createdOn,createdBy,modifiedOn,modifiedBy,fgPartDesc) VALUES(@childFgpartId,@childFgPartNo,@childPartNoDesc,@plantId,@fgPartNo,@isDeleted,@createdOn,@createdBy,@modifiedOn,@modifiedBy,@fgPartDesc)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+        public Task<int> insert_tbl_utilreport(List<utilreportE> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tbl_utilreport`(UtilReportID,MachineID,CorrectedDate,TotalTime,OperatingTime,SetupTime,MinorLossTime,LossTime,BDTime,PowerOffTime,UtilPercent,InsertedOn,SetupMinorTime) VALUES(@UtilReportID,@MachineID,@CorrectedDate,@TotalTime,@OperatingTime,@SetupTime,@MinorLossTime,@LossTime,@BDTime,@PowerOffTime,@UtilPercent,@InsertedOn,@SetupMinorTime)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+        public Task<int> insert_tbl_tblbreakdowncodes(List<tblbreakdowncodesE> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tblbreakdowncodes`(BreakdownID,BreakdownCode,BreakdownDesc,MessageType,BreakdownLevel,BreakdownLevel1ID,BreakdownLevel2ID,ContributeTo,IsDeleted,CreatedOn,CreatedBy,ModifiedOn,ModifiedBy,EndCode,DeletedDate,ServerTabCheck,ServerTabFlagSync,TargetPercent) VALUES( @BreakdownID,@BreakdownCode,@BreakdownDesc,@MessageType,@BreakdownLevel,@BreakdownLevel1ID,@BreakdownLevel2ID,@ContributeTo,@IsDeleted,@CreatedOn,@CreatedBy,@ModifiedOn,@ModifiedBy,@EndCode,@DeletedDate,@ServerTabCheck,@ServerTabFlagSync,@TargetPercent)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+
+        public Task<int> insert_tblpriorityalarms(List<tblpriorityalarmsE> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tblpriorityalarms`( AlarmID,AlarmNumber,AlarmDesc,AxisNo,AlarmGroup,PriorityNumber,IsDeleted,CreatedOn,CreatedBy,ModifiedOn,ModifiedBy,MachineID,CorrectedDate,isMailSent) VALUES(@AlarmID,@AlarmNumber,@AlarmDesc,@AxisNo,@AlarmGroup,@PriorityNumber,@IsDeleted,@CreatedOn,@CreatedBy,@ModifiedOn,@ModifiedBy,@MachineID,@CorrectedDate,@isMailSent)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+
+        public Task<int> insert_alarm_history_master(List<alarm_history_masterE> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.alarm_history_master`( AlarmID,AlarmMessage,AlarmDateTime,InsertedOn,MachineID,Shift,CorrectedDate,ErrorNum,Status,DetailCode1,DetailCode2,DetailCode3,InterferedPart,SystemHead,AlarmNo,Axis_No,Axis_Num,Abs_Pos,AlarmDate,AlarmTime) VALUES(@AlarmID,@AlarmMessage,@AlarmDateTime,@InsertedOn,@MachineID,@Shift,@CorrectedDate,@ErrorNum,@Status,@DetailCode1,@DetailCode2,@DetailCode3,@InterferedPart,@SystemHead,@AlarmNo,@Axis_No,@Axis_Num,@Abs_Pos,@AlarmDate,@AlarmTime)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+        public Task<int> insert_tblfgpartnodet(List<tblfgpartnodetE> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tblfgpartnodet`(fgPartId,partId,partCountMethod,operationNo,workOrderNo,noOfPartsPerCycle,isClosed,isDeleted,startDate,closedDate,operatorId,machineId,correctedDate,shift,createdOn,createdBy,modifiedOn,modifiedBy,planLinkageId,actaulValue,targetQty,availibility,performance,quality,oee,fgPartNo,idealCycleTime,unit,scheduledQty,plannedStartTime,plannedEndTime,routingId,partName,workOrderCompletedQty) VALUES(@fgPartId,@partId,@partCountMethod,@operationNo,@workOrderNo,@noOfPartsPerCycle,@isClosed,@isDeleted,@startDate,@closedDate,@operatorId,@machineId,@correctedDate,@shift,@createdOn,@createdBy,@modifiedOn,@modifiedBy,@planLinkageId,@actaulValue,@targetQty,@availibility,@performance,@quality,@oee,@fgPartNo,@idealCycleTime,@unit,@scheduledQty,@plannedStartTime,@plannedEndTime,@routingId,@partName,@workOrderCompletedQty)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+        public Task<int> insert_tbl_prodmanmachine(List<tbl_prodmanmachineE> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tbl_prodmanmachine`(ProdManMachineID,MachineID,CorrectedDate,WOID,UtilPercent,TotalLoss,TotalSetup,TotalMinorLoss,TotalOperatingTime,InsertedOn,TotalSetupMinorLoss,TotalPowerLoss,PerformancePerCent,QualityPercent,PerfromaceFactor) VALUES(@ProdManMachineID,@MachineID,@CorrectedDate,@WOID,@UtilPercent,@TotalLoss,@TotalSetup,@TotalMinorLoss,@TotalOperatingTime,@InsertedOn,@TotalSetupMinorLoss,@TotalPowerLoss,@PerformancePerCent,@QualityPercent,@PerfromaceFactor)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+
+        public Task<int> insert_tblRejectionDetails(List<tblrejectiondetailsE> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tblrejectiondetails`(rejectionId,fgPartId,defectCodeId,defectQty,machineId,operatorId,isDeleted,createdOn,createdBy,modifiedOn,modifiedBy,correctedDate,shift,qrCodeNo,isDirLineInsp,isDirQualityHead,dmcCodeStatus,ReasonForRejection) VALUES(@rejectionId,@fgPartId,@defectCodeId,@defectQty,@machineId,@operatorId,@isDeleted,@createdOn,@createdBy,@modifiedOn,@modifiedBy,@correctedDate,@shift,@qrCodeNo,@isDirLineInsp,@isDirQualityHead,@dmcCodeStatus,@ReasonForRejection)";
+
+
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+
+        public Task<int> insert_configuration_tblprimitivem(List<configuration_tblprimitivemaintainE_> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                 string query = "INSERT INTO `unitworkccs.configuration_tblprimitivemaintainancescheduling`(pmid,MachineID,MachineName,Month,Week,IsDeleted,CreatedOn,CreatedBy,ModifiedOn,ModifiedBy,CellName,CellID,PlantID,ShopID,plantName,shopname,MonthID,WeekID) VALUES(@pmid,@MachineID,@MachineName,@Month,@Week,@IsDeleted,@CreatedOn,@CreatedBy,@ModifiedOn,@ModifiedBy,@CellName,@CellID,@PlantID,@ShopID,@plantName,@shopname,@MonthID,@WeekID)";
+
+                //string query = "INSERT INTO `unitworkccs.configuration_`(pmid,MachineID,MachineName,Month,Week,IsDeleted,CreatedOn,CreatedBy,ModifiedOn,ModifiedBy,CellName,CellID,PlantID,ShopID,plantName,shopname,MonthID,WeekID) VALUES(@pmid,@MachineID,@MachineName,@Month,@Week,@IsDeleted,@CreatedOn,@CreatedBy,@ModifiedOn,@ModifiedBy,@CellName,@CellID,@PlantID,@ShopID,@plantName,@shopname,@MonthID,@WeekID)";
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+        public Task<int> insert_tblsmsdetails(List<tblsmsdetailsE> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tblsmsdetails`(smsId,machineId,contactNo,ticketId,createdOn,createdBy,modifiedOn,modifiedBy,isDeleted,responseId,idleResponseId,idleSms,shift,message,correctedDate,cellId,subCellId,categoryId,smsPriority,timeToBeTriggered,employeeName,opNo) VALUES(@smsId,@machineId,@contactNo,@ticketId,@createdOn,@createdBy,@modifiedOn,@modifiedBy,@isDeleted,@responseId,@idleResponseId,@idleSms,@shift,@message,@correctedDate,@cellId,@subCellId,@categoryId,@smsPriority,@timeToBeTriggered,@employeeName,@opNo)";
+
+                //string query = "INSERT INTO `unitworkccs.configuration_`(pmid,MachineID,MachineName,Month,Week,IsDeleted,CreatedOn,CreatedBy,ModifiedOn,ModifiedBy,CellName,CellID,PlantID,ShopID,plantName,shopname,MonthID,WeekID) VALUES(@pmid,@MachineID,@MachineName,@Month,@Week,@IsDeleted,@CreatedOn,@CreatedBy,@ModifiedOn,@ModifiedBy,@CellName,@CellID,@PlantID,@ShopID,@plantName,@shopname,@MonthID,@WeekID)";
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+        public Task<int> insert_operationlog(List<operationlogE> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.operationlog`( idoperationlog,OpMsg,OpDate,OpTime,OpDateTime,OpReason,MachineID) VALUES( @idoperationlog,@OpMsg,@OpDate,@OpTime,@OpDateTime,@OpReason,@MachineID)";
+
+                //string query = "INSERT INTO `unitworkccs.configuration_`(pmid,MachineID,MachineName,Month,Week,IsDeleted,CreatedOn,CreatedBy,ModifiedOn,ModifiedBy,CellName,CellID,PlantID,ShopID,plantName,shopname,MonthID,WeekID) VALUES(@pmid,@MachineID,@MachineName,@Month,@Week,@IsDeleted,@CreatedOn,@CreatedBy,@ModifiedOn,@ModifiedBy,@CellName,@CellID,@PlantID,@ShopID,@plantName,@shopname,@MonthID,@WeekID)";
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+        public Task<int> insert_tblstoppage(List<tblstoppageE> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tblstoppage`( stoppagesId,categoryId,alramNo,alramDesc,sourceId,createdOn,createdBy,modifiedBy,modifiedOn,isDeleted) VALUES( @stoppagesId,@categoryId,@alramNo,@alramDesc,@sourceId,@createdOn,@createdBy,@modifiedBy,@modifiedOn,@isDeleted)";
+
+                //string query = "INSERT INTO `unitworkccs.configuration_`(pmid,MachineID,MachineName,Month,Week,IsDeleted,CreatedOn,CreatedBy,ModifiedOn,ModifiedBy,CellName,CellID,PlantID,ShopID,plantName,shopname,MonthID,WeekID) VALUES(@pmid,@MachineID,@MachineName,@Month,@Week,@IsDeleted,@CreatedOn,@CreatedBy,@ModifiedOn,@ModifiedBy,@CellName,@CellID,@PlantID,@ShopID,@plantName,@shopname,@MonthID,@WeekID)";
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+
+        public Task<int> insert_tblproductwisedefectcodese(List<tblproductwisedefectcodesE> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tblproductwisedefectcodes`(productWiseDefectCodeId,trim,plantId,partNo,defectCodeId,isDeleted,createdOn,createdBy,modifiedOn,modifiedBy,partName) VALUES( @productWiseDefectCodeId,@trim,@plantId,@partNo,@defectCodeId,@isDeleted,@createdOn,@createdBy,@modifiedOn,@modifiedBy,@partName)";
+
+                //string query = "INSERT INTO `unitworkccs.configuration_`(pmid,MachineID,MachineName,Month,Week,IsDeleted,CreatedOn,CreatedBy,ModifiedOn,ModifiedBy,CellName,CellID,PlantID,ShopID,plantName,shopname,MonthID,WeekID) VALUES(@pmid,@MachineID,@MachineName,@Month,@Week,@IsDeleted,@CreatedOn,@CreatedBy,@ModifiedOn,@ModifiedBy,@CellName,@CellID,@PlantID,@ShopID,@plantName,@shopname,@MonthID,@WeekID)";
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+        public Task<int> inserttblmachinedetails(List<tblmachinedetailsE> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tblmachinedetails`(MachineID,InsertedOn,InsertedBy,ModifiedOn,ModifiedBy,IsDeleted,PlantID,ShopID,CellID,MachineName,MachineDescription,MachineDisplayName,CellOrderNo,IPAddress,MachineType,ControllerType,MachineModel,MachineMake,ModelType,IsParameters,ShopNo,IsPCB,IsLevel,IsNormalWC,ManualWCID,NoOfAxis,MacType,CurrentControlAxis,ProgramNum,ProgDBit,MachineModelType,MacConnName,SpindleAxis,TabIPAddress,MachineLockBit,MachineSetupBit,MachineMaintBit,MachineToolLifeBit,MachineUnlockBit,MachineIdleBit,MachineIdleMin,EnableLockLogic,ServerTabFlagSync,ServerTabCheck,DeletedDate,EnableToolLife,IsBottelNeck,IsFirstMachine,IsLastMachine,OperationNumber,IsShiftWise,LossFlag,TransmissionFrequency,LoggerType,MachinePort,NumOfAxis,ToolGroupNum,NumberOfCurrent,NumberOfTemperature,NumberOfPresure,NumberOfLevel,CreatedOn,IsWimerasys,IOTGatewayIP,NodeID,IsDLVersion,machinePockets,noOfPartsPerCycle,Category,MachineCategoryId,MMMGroup,dedicatedOrShared,primaryOrSecondary,machineSpec,chuckOrRodSize,noOfToolStation,tallStockAvailId,noOfAxisId,tableSize,palletId) VALUES( @MachineID,@InsertedOn,@InsertedBy,@ModifiedOn,@ModifiedBy,@IsDeleted,@PlantID,@ShopID,@CellID,@MachineName,@MachineDescription,@MachineDisplayName,@CellOrderNo,@IPAddress,@MachineType,@ControllerType,@MachineModel,@MachineMake,@ModelType,@IsParameters,@ShopNo,@IsPCB,@IsLevel,@IsNormalWC,@ManualWCID,@NoOfAxis,@MacType,@CurrentControlAxis,@ProgramNum,@ProgDBit,@MachineModelType,@MacConnName,@SpindleAxis,@TabIPAddress,@MachineLockBit,@MachineSetupBit,@MachineMaintBit,@MachineToolLifeBit,@MachineUnlockBit,@MachineIdleBit,@MachineIdleMin,@EnableLockLogic,@ServerTabFlagSync,@ServerTabCheck,@DeletedDate,@EnableToolLife,@IsBottelNeck,@IsFirstMachine,@IsLastMachine,@OperationNumber,@IsShiftWise,@LossFlag,@TransmissionFrequency,@LoggerType,@MachinePort,@NumOfAxis,@ToolGroupNum,@NumberOfCurrent,@NumberOfTemperature,@NumberOfPresure,@NumberOfLevel,@CreatedOn,@IsWimerasys,@IOTGatewayIP,@NodeID,@IsDLVersion,@machinePockets,@noOfPartsPerCycle,@Category,@MachineCategoryId,@MMMGroup,@dedicatedOrShared,@primaryOrSecondary,@machineSpec,@chuckOrRodSize,@noOfToolStation,@tallStockAvailId,@noOfAxisId,@tableSize,@palletId)";
+
+                //string query = "INSERT INTO `unitworkccs.configuration_`(pmid,MachineID,MachineName,Month,Week,IsDeleted,CreatedOn,CreatedBy,ModifiedOn,ModifiedBy,CellName,CellID,PlantID,ShopID,plantName,shopname,MonthID,WeekID) VALUES(@pmid,@MachineID,@MachineName,@Month,@Week,@IsDeleted,@CreatedOn,@CreatedBy,@ModifiedOn,@ModifiedBy,@CellName,@CellID,@PlantID,@ShopID,@plantName,@shopname,@MonthID,@WeekID)";
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+        public Task<int> insertlogintrackerdetails(List<logintrackerdetailsE> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.logintrackerdetails`(loginTrackerDetailsId,machineId,operatorId,currentFGPart,currentTicketRaisedId,loginDateTime,logoutDateTime,isLoggedIn,insertedOn,isDeleted,shift,correctedDate) VALUES( @loginTrackerDetailsId,@machineId,@operatorId,@currentFGPart,@currentTicketRaisedId,@loginDateTime,@logoutDateTime,@isLoggedIn,@insertedOn,@isDeleted,@shift,@correctedDate)";
+
+                //string query = "INSERT INTO `unitworkccs.configuration_`(pmid,MachineID,MachineName,Month,Week,IsDeleted,CreatedOn,CreatedBy,ModifiedOn,ModifiedBy,CellName,CellID,PlantID,ShopID,plantName,shopname,MonthID,WeekID) VALUES(@pmid,@MachineID,@MachineName,@Month,@Week,@IsDeleted,@CreatedOn,@CreatedBy,@ModifiedOn,@ModifiedBy,@CellName,@CellID,@PlantID,@ShopID,@plantName,@shopname,@MonthID,@WeekID)";
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+        public Task<int> inserttblparts(List<tblpartsE> datalist)
+        {
+            int res = 0;
+
+            try
+            {
+                ConnectionFactory _connectionFactory = new ConnectionFactory();
+
+                //  string query = "INSERT INTO [unitworksccs].[tblplant](plantId,PlantName,PlantDesc,IsDeleted, CreatedOn, CreatedBy) " +"VALUES(@PlantID,@PlantName,@PlantDesc,@CreatedOn,@CreatedBy)";
+
+                //string query = "INSERT INTO `unitworkccs.parameter_sendor_data`(parameterSensorDataId,machineId,sensorDataCapturedTime,isDeleted,createdOn,correctedDate) VALUES(  @parameterSensorDataId,@machineId,@sensorDataCapturedTime,@isDeleted,@createdOn,@correctedDate)";
+
+                string query = "INSERT INTO `unitworkccs.tblparts`(PartID,FGCode,OperationNo,PartName,IdealCycleTime,PartsPerCycle,UnitDesc,IsDeleted,CreatedOn,CreatedBy,ModifiedOn,ModifiedBy,DrawingNo,DeletedDate,Std_Load_UnloadTime,Std_SetupTime,MachineID,StdMinorLoss,StdLoadingTime,StdUnLoadingTime,PartNo,PartDesc,targetPerHr,planLinkageId,targetPerShift,routingId,resourceId,plantId,priority) VALUES( @PartID,@FGCode,@OperationNo,@PartName,@IdealCycleTime,@PartsPerCycle,@UnitDesc,@IsDeleted,@CreatedOn,@CreatedBy,@ModifiedOn,@ModifiedBy,@DrawingNo,@DeletedDate,@Std_Load_UnloadTime,@Std_SetupTime,@MachineID,@StdMinorLoss,@StdLoadingTime,@StdUnLoadingTime,@PartNo,@PartDesc,@targetPerHr,@planLinkageId,@targetPerShift,@routingId,@resourceId,@plantId,@priority)";
+
+                //string query = "INSERT INTO `unitworkccs.configuration_`(pmid,MachineID,MachineName,Month,Week,IsDeleted,CreatedOn,CreatedBy,ModifiedOn,ModifiedBy,CellName,CellID,PlantID,ShopID,plantName,shopname,MonthID,WeekID) VALUES(@pmid,@MachineID,@MachineName,@Month,@Week,@IsDeleted,@CreatedOn,@CreatedBy,@ModifiedOn,@ModifiedBy,@CellName,@CellID,@PlantID,@ShopID,@plantName,@shopname,@MonthID,@WeekID)";
+
+                using (var con = _connectionFactory.GetConnection)
+                {
+                    res = con.Execute(query, datalist, commandTimeout: 600);
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return Task.FromResult<int>(res);
+        }
+
+
+
+
 
         //public Task<int> insert_ddlistsql(List<MyDAL.Model.tblddl> datalist)
         //{
